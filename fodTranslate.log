@@ -1,0 +1,424 @@
+[2019-02-26 20:21:11.846 WARN  12003]
+Assuming Java source level to be 1.8 as it was not specified. Note that the default value may change in future versions.
+[2019-02-26 20:21:11.856 INFO  1450]
+Processing /Users/zacharylewis/Desktop/fodjavauploaddemo/WebGoat5.0/JavaSource/org/owasp/webgoat/HammerHead.java
+[2019-02-26 20:21:12.387 INFO  1450]
+Processing /Users/zacharylewis/Desktop/fodjavauploaddemo/WebGoat5.0/JavaSource/org/owasp/webgoat/LessonSource.java
+[2019-02-26 20:21:12.405 INFO  1450]
+Processing /Users/zacharylewis/Desktop/fodjavauploaddemo/WebGoat5.0/JavaSource/org/owasp/webgoat/lessons/AbstractLesson.java
+[2019-02-26 20:21:12.524 INFO  1450]
+Processing /Users/zacharylewis/Desktop/fodjavauploaddemo/WebGoat5.0/JavaSource/org/owasp/webgoat/lessons/AccessControlMatrix.java
+[2019-02-26 20:21:12.548 INFO  1450]
+Processing /Users/zacharylewis/Desktop/fodjavauploaddemo/WebGoat5.0/JavaSource/org/owasp/webgoat/lessons/BackDoors.java
+[2019-02-26 20:21:12.589 INFO  1450]
+Processing /Users/zacharylewis/Desktop/fodjavauploaddemo/WebGoat5.0/JavaSource/org/owasp/webgoat/lessons/BasicAuthentication.java
+[2019-02-26 20:21:12.613 INFO  1450]
+Processing /Users/zacharylewis/Desktop/fodjavauploaddemo/WebGoat5.0/JavaSource/org/owasp/webgoat/lessons/BlindSqlInjection.java
+[2019-02-26 20:21:12.632 INFO  1450]
+Processing /Users/zacharylewis/Desktop/fodjavauploaddemo/WebGoat5.0/JavaSource/org/owasp/webgoat/lessons/BufferOverflow.java
+[2019-02-26 20:21:12.638 INFO  1450]
+Processing /Users/zacharylewis/Desktop/fodjavauploaddemo/WebGoat5.0/JavaSource/org/owasp/webgoat/lessons/CSRF.java
+[2019-02-26 20:21:12.673 INFO  1450]
+Processing /Users/zacharylewis/Desktop/fodjavauploaddemo/WebGoat5.0/JavaSource/org/owasp/webgoat/lessons/Category.java
+[2019-02-26 20:21:12.679 INFO  1450]
+Processing /Users/zacharylewis/Desktop/fodjavauploaddemo/WebGoat5.0/JavaSource/org/owasp/webgoat/lessons/Challenge2Screen.java
+[2019-02-26 20:21:12.741 INFO  1450]
+Processing /Users/zacharylewis/Desktop/fodjavauploaddemo/WebGoat5.0/JavaSource/org/owasp/webgoat/lessons/CommandInjection.java
+[2019-02-26 20:21:12.764 INFO  1450]
+Processing /Users/zacharylewis/Desktop/fodjavauploaddemo/WebGoat5.0/JavaSource/org/owasp/webgoat/lessons/CrossSiteScripting/CrossSiteScripting.java
+[2019-02-26 20:21:12.793 INFO  1450]
+Processing /Users/zacharylewis/Desktop/fodjavauploaddemo/WebGoat5.0/JavaSource/org/owasp/webgoat/lessons/CrossSiteScripting/EditProfile.java
+[2019-02-26 20:21:12.804 INFO  1450]
+Processing /Users/zacharylewis/Desktop/fodjavauploaddemo/WebGoat5.0/JavaSource/org/owasp/webgoat/lessons/CrossSiteScripting/FindProfile.java
+[2019-02-26 20:21:12.817 INFO  1450]
+Processing /Users/zacharylewis/Desktop/fodjavauploaddemo/WebGoat5.0/JavaSource/org/owasp/webgoat/lessons/CrossSiteScripting/UpdateProfile.java
+[2019-02-26 20:21:12.839 INFO  1450]
+Processing /Users/zacharylewis/Desktop/fodjavauploaddemo/WebGoat5.0/JavaSource/org/owasp/webgoat/lessons/CrossSiteScripting/ViewProfile.java
+[2019-02-26 20:21:12.857 INFO  1450]
+Processing /Users/zacharylewis/Desktop/fodjavauploaddemo/WebGoat5.0/JavaSource/org/owasp/webgoat/lessons/DOMInjection.java
+[2019-02-26 20:21:12.869 INFO  1450]
+Processing /Users/zacharylewis/Desktop/fodjavauploaddemo/WebGoat5.0/JavaSource/org/owasp/webgoat/lessons/DOS_Login.java
+[2019-02-26 20:21:12.888 INFO  1450]
+Processing /Users/zacharylewis/Desktop/fodjavauploaddemo/WebGoat5.0/JavaSource/org/owasp/webgoat/lessons/DefaultLessonAction.java
+[2019-02-26 20:21:12.912 INFO  1450]
+Processing /Users/zacharylewis/Desktop/fodjavauploaddemo/WebGoat5.0/JavaSource/org/owasp/webgoat/lessons/Encoding.java
+[2019-02-26 20:21:12.979 INFO  1450]
+Processing /Users/zacharylewis/Desktop/fodjavauploaddemo/WebGoat5.0/JavaSource/org/owasp/webgoat/lessons/FailOpenAuthentication.java
+[2019-02-26 20:21:12.990 INFO  1450]
+Processing /Users/zacharylewis/Desktop/fodjavauploaddemo/WebGoat5.0/JavaSource/org/owasp/webgoat/lessons/ForcedBrowsing.java
+[2019-02-26 20:21:13.001 INFO  1450]
+Processing /Users/zacharylewis/Desktop/fodjavauploaddemo/WebGoat5.0/JavaSource/org/owasp/webgoat/lessons/ForgotPassword.java
+[2019-02-26 20:21:13.025 INFO  1450]
+Processing /Users/zacharylewis/Desktop/fodjavauploaddemo/WebGoat5.0/JavaSource/org/owasp/webgoat/lessons/HiddenFieldTampering.java
+[2019-02-26 20:21:13.052 INFO  1450]
+Processing /Users/zacharylewis/Desktop/fodjavauploaddemo/WebGoat5.0/JavaSource/org/owasp/webgoat/lessons/HtmlClues.java
+[2019-02-26 20:21:13.071 INFO  1450]
+Processing /Users/zacharylewis/Desktop/fodjavauploaddemo/WebGoat5.0/JavaSource/org/owasp/webgoat/lessons/HttpBasics.java
+[2019-02-26 20:21:13.085 INFO  1450]
+Processing /Users/zacharylewis/Desktop/fodjavauploaddemo/WebGoat5.0/JavaSource/org/owasp/webgoat/lessons/HttpOnly.java
+[2019-02-26 20:21:13.120 INFO  1450]
+Processing /Users/zacharylewis/Desktop/fodjavauploaddemo/WebGoat5.0/JavaSource/org/owasp/webgoat/lessons/HttpSplitting.java
+[2019-02-26 20:21:13.138 INFO  1450]
+Processing /Users/zacharylewis/Desktop/fodjavauploaddemo/WebGoat5.0/JavaSource/org/owasp/webgoat/lessons/JSONInjection.java
+[2019-02-26 20:21:13.154 INFO  1450]
+Processing /Users/zacharylewis/Desktop/fodjavauploaddemo/WebGoat5.0/JavaSource/org/owasp/webgoat/lessons/JavaScriptValidation.java
+[2019-02-26 20:21:13.175 INFO  1450]
+Processing /Users/zacharylewis/Desktop/fodjavauploaddemo/WebGoat5.0/JavaSource/org/owasp/webgoat/lessons/LessonAction.java
+[2019-02-26 20:21:13.178 INFO  1450]
+Processing /Users/zacharylewis/Desktop/fodjavauploaddemo/WebGoat5.0/JavaSource/org/owasp/webgoat/lessons/LessonAdapter.java
+[2019-02-26 20:21:13.199 INFO  1450]
+Processing /Users/zacharylewis/Desktop/fodjavauploaddemo/WebGoat5.0/JavaSource/org/owasp/webgoat/lessons/LogSpoofing.java
+[2019-02-26 20:21:13.209 INFO  1450]
+Processing /Users/zacharylewis/Desktop/fodjavauploaddemo/WebGoat5.0/JavaSource/org/owasp/webgoat/lessons/NewLesson.java
+[2019-02-26 20:21:13.212 INFO  1450]
+Processing /Users/zacharylewis/Desktop/fodjavauploaddemo/WebGoat5.0/JavaSource/org/owasp/webgoat/lessons/PathBasedAccessControl.java
+[2019-02-26 20:21:13.226 INFO  1450]
+Processing /Users/zacharylewis/Desktop/fodjavauploaddemo/WebGoat5.0/JavaSource/org/owasp/webgoat/lessons/ReflectedXSS.java
+[2019-02-26 20:21:13.250 INFO  1450]
+Processing /Users/zacharylewis/Desktop/fodjavauploaddemo/WebGoat5.0/JavaSource/org/owasp/webgoat/lessons/RemoteAdminFlaw.java
+[2019-02-26 20:21:13.255 INFO  1450]
+Processing /Users/zacharylewis/Desktop/fodjavauploaddemo/WebGoat5.0/JavaSource/org/owasp/webgoat/lessons/RoleBasedAccessControl/DeleteProfile.java
+[2019-02-26 20:21:13.264 INFO  1450]
+Processing /Users/zacharylewis/Desktop/fodjavauploaddemo/WebGoat5.0/JavaSource/org/owasp/webgoat/lessons/RoleBasedAccessControl/EditProfile.java
+[2019-02-26 20:21:13.274 INFO  1450]
+Processing /Users/zacharylewis/Desktop/fodjavauploaddemo/WebGoat5.0/JavaSource/org/owasp/webgoat/lessons/RoleBasedAccessControl/FindProfile.java
+[2019-02-26 20:21:13.286 INFO  1450]
+Processing /Users/zacharylewis/Desktop/fodjavauploaddemo/WebGoat5.0/JavaSource/org/owasp/webgoat/lessons/RoleBasedAccessControl/ListStaff.java
+[2019-02-26 20:21:13.296 INFO  1450]
+Processing /Users/zacharylewis/Desktop/fodjavauploaddemo/WebGoat5.0/JavaSource/org/owasp/webgoat/lessons/RoleBasedAccessControl/Login.java
+[2019-02-26 20:21:13.312 INFO  1450]
+Processing /Users/zacharylewis/Desktop/fodjavauploaddemo/WebGoat5.0/JavaSource/org/owasp/webgoat/lessons/RoleBasedAccessControl/Logout.java
+[2019-02-26 20:21:13.318 INFO  1450]
+Processing /Users/zacharylewis/Desktop/fodjavauploaddemo/WebGoat5.0/JavaSource/org/owasp/webgoat/lessons/RoleBasedAccessControl/RoleBasedAccessControl.java
+[2019-02-26 20:21:13.361 INFO  1450]
+Processing /Users/zacharylewis/Desktop/fodjavauploaddemo/WebGoat5.0/JavaSource/org/owasp/webgoat/lessons/RoleBasedAccessControl/SearchStaff.java
+[2019-02-26 20:21:13.364 INFO  1450]
+Processing /Users/zacharylewis/Desktop/fodjavauploaddemo/WebGoat5.0/JavaSource/org/owasp/webgoat/lessons/RoleBasedAccessControl/UpdateProfile.java
+[2019-02-26 20:21:13.380 INFO  1450]
+Processing /Users/zacharylewis/Desktop/fodjavauploaddemo/WebGoat5.0/JavaSource/org/owasp/webgoat/lessons/RoleBasedAccessControl/ViewProfile.java
+[2019-02-26 20:21:13.387 INFO  1450]
+Processing /Users/zacharylewis/Desktop/fodjavauploaddemo/WebGoat5.0/JavaSource/org/owasp/webgoat/lessons/SQLInjection/ListStaff.java
+[2019-02-26 20:21:13.394 INFO  1450]
+Processing /Users/zacharylewis/Desktop/fodjavauploaddemo/WebGoat5.0/JavaSource/org/owasp/webgoat/lessons/SQLInjection/Login.java
+[2019-02-26 20:21:13.406 INFO  1450]
+Processing /Users/zacharylewis/Desktop/fodjavauploaddemo/WebGoat5.0/JavaSource/org/owasp/webgoat/lessons/SQLInjection/SQLInjection.java
+[2019-02-26 20:21:13.425 INFO  1450]
+Processing /Users/zacharylewis/Desktop/fodjavauploaddemo/WebGoat5.0/JavaSource/org/owasp/webgoat/lessons/SQLInjection/ViewProfile.java
+[2019-02-26 20:21:13.436 INFO  1450]
+Processing /Users/zacharylewis/Desktop/fodjavauploaddemo/WebGoat5.0/JavaSource/org/owasp/webgoat/lessons/SilentTransactions.java
+[2019-02-26 20:21:13.451 INFO  1450]
+Processing /Users/zacharylewis/Desktop/fodjavauploaddemo/WebGoat5.0/JavaSource/org/owasp/webgoat/lessons/SoapRequest.java
+[2019-02-26 20:21:13.463 INFO  1450]
+Processing /Users/zacharylewis/Desktop/fodjavauploaddemo/WebGoat5.0/JavaSource/org/owasp/webgoat/lessons/SqlNumericInjection.java
+[2019-02-26 20:21:13.481 INFO  1450]
+Processing /Users/zacharylewis/Desktop/fodjavauploaddemo/WebGoat5.0/JavaSource/org/owasp/webgoat/lessons/SqlStringInjection.java
+[2019-02-26 20:21:13.496 INFO  1450]
+Processing /Users/zacharylewis/Desktop/fodjavauploaddemo/WebGoat5.0/JavaSource/org/owasp/webgoat/lessons/StoredXss.java
+[2019-02-26 20:21:13.512 INFO  1450]
+Processing /Users/zacharylewis/Desktop/fodjavauploaddemo/WebGoat5.0/JavaSource/org/owasp/webgoat/lessons/ThreadSafetyProblem.java
+[2019-02-26 20:21:13.521 INFO  1450]
+Processing /Users/zacharylewis/Desktop/fodjavauploaddemo/WebGoat5.0/JavaSource/org/owasp/webgoat/lessons/TraceXSS.java
+[2019-02-26 20:21:13.533 INFO  1450]
+Processing /Users/zacharylewis/Desktop/fodjavauploaddemo/WebGoat5.0/JavaSource/org/owasp/webgoat/lessons/UncheckedEmail.java
+[2019-02-26 20:21:13.546 INFO  1450]
+Processing /Users/zacharylewis/Desktop/fodjavauploaddemo/WebGoat5.0/JavaSource/org/owasp/webgoat/lessons/WSDLScanning.java
+[2019-02-26 20:21:13.562 INFO  1450]
+Processing /Users/zacharylewis/Desktop/fodjavauploaddemo/WebGoat5.0/JavaSource/org/owasp/webgoat/lessons/WeakAuthenticationCookie.java
+[2019-02-26 20:21:13.576 INFO  1450]
+Processing /Users/zacharylewis/Desktop/fodjavauploaddemo/WebGoat5.0/JavaSource/org/owasp/webgoat/lessons/WeakSessionID.java
+[2019-02-26 20:21:13.587 INFO  1450]
+Processing /Users/zacharylewis/Desktop/fodjavauploaddemo/WebGoat5.0/JavaSource/org/owasp/webgoat/lessons/WelcomeScreen.java
+[2019-02-26 20:21:13.593 INFO  1450]
+Processing /Users/zacharylewis/Desktop/fodjavauploaddemo/WebGoat5.0/JavaSource/org/owasp/webgoat/lessons/WsSAXInjection.java
+[2019-02-26 20:21:13.607 INFO  1450]
+Processing /Users/zacharylewis/Desktop/fodjavauploaddemo/WebGoat5.0/JavaSource/org/owasp/webgoat/lessons/WsSqlInjection.java
+[2019-02-26 20:21:13.616 INFO  1450]
+Processing /Users/zacharylewis/Desktop/fodjavauploaddemo/WebGoat5.0/JavaSource/org/owasp/webgoat/lessons/XMLInjection.java
+[2019-02-26 20:21:13.640 INFO  1450]
+Processing /Users/zacharylewis/Desktop/fodjavauploaddemo/WebGoat5.0/JavaSource/org/owasp/webgoat/lessons/XPATHInjection.java
+[2019-02-26 20:21:13.653 INFO  1450]
+Processing /Users/zacharylewis/Desktop/fodjavauploaddemo/WebGoat5.0/JavaSource/org/owasp/webgoat/lessons/admin/AdminScreen.java
+[2019-02-26 20:21:13.656 INFO  1450]
+Processing /Users/zacharylewis/Desktop/fodjavauploaddemo/WebGoat5.0/JavaSource/org/owasp/webgoat/lessons/admin/ProductsAdminScreen.java
+[2019-02-26 20:21:13.660 INFO  1450]
+Processing /Users/zacharylewis/Desktop/fodjavauploaddemo/WebGoat5.0/JavaSource/org/owasp/webgoat/lessons/admin/RefreshDBScreen.java
+[2019-02-26 20:21:13.666 INFO  1450]
+Processing /Users/zacharylewis/Desktop/fodjavauploaddemo/WebGoat5.0/JavaSource/org/owasp/webgoat/lessons/admin/ReportCardScreen.java
+[2019-02-26 20:21:13.678 INFO  1450]
+Processing /Users/zacharylewis/Desktop/fodjavauploaddemo/WebGoat5.0/JavaSource/org/owasp/webgoat/lessons/admin/SummaryReportCardScreen.java
+[2019-02-26 20:21:13.691 INFO  1450]
+Processing /Users/zacharylewis/Desktop/fodjavauploaddemo/WebGoat5.0/JavaSource/org/owasp/webgoat/lessons/admin/UserAdminScreen.java
+[2019-02-26 20:21:13.695 INFO  1450]
+Processing /Users/zacharylewis/Desktop/fodjavauploaddemo/WebGoat5.0/JavaSource/org/owasp/webgoat/lessons/admin/ViewDatabase.java
+[2019-02-26 20:21:13.704 INFO  1450]
+Processing /Users/zacharylewis/Desktop/fodjavauploaddemo/WebGoat5.0/JavaSource/org/owasp/webgoat/lessons/admin/WelcomeAdminScreen.java
+[2019-02-26 20:21:13.707 INFO  1450]
+Processing /Users/zacharylewis/Desktop/fodjavauploaddemo/WebGoat5.0/JavaSource/org/owasp/webgoat/servlets/Controller.java
+[2019-02-26 20:21:13.711 INFO  1450]
+Processing /Users/zacharylewis/Desktop/fodjavauploaddemo/WebGoat5.0/JavaSource/org/owasp/webgoat/session/Authorization.java
+[2019-02-26 20:21:13.714 INFO  1450]
+Processing /Users/zacharylewis/Desktop/fodjavauploaddemo/WebGoat5.0/JavaSource/org/owasp/webgoat/session/Course.java
+[2019-02-26 20:21:13.734 INFO  1450]
+Processing /Users/zacharylewis/Desktop/fodjavauploaddemo/WebGoat5.0/JavaSource/org/owasp/webgoat/session/CreateDB.java
+[2019-02-26 20:21:13.771 INFO  1450]
+Processing /Users/zacharylewis/Desktop/fodjavauploaddemo/WebGoat5.0/JavaSource/org/owasp/webgoat/session/DatabaseUtilities.java
+[2019-02-26 20:21:13.777 INFO  1450]
+Processing /Users/zacharylewis/Desktop/fodjavauploaddemo/WebGoat5.0/JavaSource/org/owasp/webgoat/session/ECSFactory.java
+[2019-02-26 20:21:13.793 INFO  1450]
+Processing /Users/zacharylewis/Desktop/fodjavauploaddemo/WebGoat5.0/JavaSource/org/owasp/webgoat/session/Employee.java
+[2019-02-26 20:21:13.802 INFO  1450]
+Processing /Users/zacharylewis/Desktop/fodjavauploaddemo/WebGoat5.0/JavaSource/org/owasp/webgoat/session/EmployeeStub.java
+[2019-02-26 20:21:13.806 INFO  1450]
+Processing /Users/zacharylewis/Desktop/fodjavauploaddemo/WebGoat5.0/JavaSource/org/owasp/webgoat/session/ErrorScreen.java
+[2019-02-26 20:21:13.815 INFO  1450]
+Processing /Users/zacharylewis/Desktop/fodjavauploaddemo/WebGoat5.0/JavaSource/org/owasp/webgoat/session/LessonSession.java
+[2019-02-26 20:21:13.821 INFO  1450]
+Processing /Users/zacharylewis/Desktop/fodjavauploaddemo/WebGoat5.0/JavaSource/org/owasp/webgoat/session/LessonTracker.java
+[2019-02-26 20:21:13.838 INFO  1450]
+Processing /Users/zacharylewis/Desktop/fodjavauploaddemo/WebGoat5.0/JavaSource/org/owasp/webgoat/session/Parameter.java
+[2019-02-26 20:21:13.841 INFO  1450]
+Processing /Users/zacharylewis/Desktop/fodjavauploaddemo/WebGoat5.0/JavaSource/org/owasp/webgoat/session/ParameterNotFoundException.java
+[2019-02-26 20:21:13.843 INFO  1450]
+Processing /Users/zacharylewis/Desktop/fodjavauploaddemo/WebGoat5.0/JavaSource/org/owasp/webgoat/session/ParameterParser.java
+[2019-02-26 20:21:13.869 INFO  1450]
+Processing /Users/zacharylewis/Desktop/fodjavauploaddemo/WebGoat5.0/JavaSource/org/owasp/webgoat/session/Screen.java
+[2019-02-26 20:21:13.875 INFO  1450]
+Processing /Users/zacharylewis/Desktop/fodjavauploaddemo/WebGoat5.0/JavaSource/org/owasp/webgoat/session/UnauthenticatedException.java
+[2019-02-26 20:21:13.876 INFO  1450]
+Processing /Users/zacharylewis/Desktop/fodjavauploaddemo/WebGoat5.0/JavaSource/org/owasp/webgoat/session/UnauthorizedException.java
+[2019-02-26 20:21:13.877 INFO  1450]
+Processing /Users/zacharylewis/Desktop/fodjavauploaddemo/WebGoat5.0/JavaSource/org/owasp/webgoat/session/UserTracker.java
+[2019-02-26 20:21:13.886 INFO  1450]
+Processing /Users/zacharylewis/Desktop/fodjavauploaddemo/WebGoat5.0/JavaSource/org/owasp/webgoat/session/ValidationException.java
+[2019-02-26 20:21:13.888 INFO  1450]
+Processing /Users/zacharylewis/Desktop/fodjavauploaddemo/WebGoat5.0/JavaSource/org/owasp/webgoat/session/WebSession.java
+[2019-02-26 20:21:13.920 INFO  1450]
+Processing /Users/zacharylewis/Desktop/fodjavauploaddemo/WebGoat5.0/JavaSource/org/owasp/webgoat/session/WebgoatProperties.java
+[2019-02-26 20:21:13.925 INFO  1450]
+Processing /Users/zacharylewis/Desktop/fodjavauploaddemo/WebGoat5.0/JavaSource/org/owasp/webgoat/util/Exec.java
+[2019-02-26 20:21:13.947 INFO  1450]
+Processing /Users/zacharylewis/Desktop/fodjavauploaddemo/WebGoat5.0/JavaSource/org/owasp/webgoat/util/ExecResults.java
+[2019-02-26 20:21:13.955 INFO  1450]
+Processing /Users/zacharylewis/Desktop/fodjavauploaddemo/WebGoat5.0/JavaSource/org/owasp/webgoat/util/ExecutionException.java
+[2019-02-26 20:21:13.957 INFO  1450]
+Processing /Users/zacharylewis/Desktop/fodjavauploaddemo/WebGoat5.0/JavaSource/org/owasp/webgoat/util/HtmlEncoder.java
+[2019-02-26 20:21:13.977 INFO  1450]
+Processing /Users/zacharylewis/Desktop/fodjavauploaddemo/WebGoat5.0/JavaSource/org/owasp/webgoat/util/Interceptor.java
+[2019-02-26 20:21:13.985 INFO  1450]
+Processing /Users/zacharylewis/Desktop/fodjavauploaddemo/WebGoat5.0/JavaSource/org/owasp/webgoat/util/ThreadWatcher.java
+[2019-02-26 20:21:21.199 INFO  1450]
+Processing /Users/zacharylewis/Desktop/fodjavauploaddemo/WebGoat5.0/WebContent/lessons/CrossSiteScripting/SearchStaff.jsp
+[2019-02-26 20:21:21.218 INFO  1450]
+Processing /Users/zacharylewis/Desktop/fodjavauploaddemo/WebGoat5.0/WebContent/lessons/RoleBasedAccessControl/error.jsp
+[2019-02-26 20:21:21.222 INFO  1450]
+Processing /Users/zacharylewis/Desktop/fodjavauploaddemo/WebGoat5.0/WebContent/lessons/SQLInjection/Login.jsp
+[2019-02-26 20:21:21.228 INFO  1450]
+Processing /Users/zacharylewis/Desktop/fodjavauploaddemo/WebGoat5.0/WebContent/lessons/SQLInjection/ListStaff.jsp
+[2019-02-26 20:21:21.238 INFO  1450]
+Processing /Users/zacharylewis/Desktop/fodjavauploaddemo/WebGoat5.0/WebContent/lessons/SQLInjection/SQLInjection.jsp
+[2019-02-26 20:21:21.256 INFO  1450]
+Processing /Users/zacharylewis/Desktop/fodjavauploaddemo/WebGoat5.0/WebContent/lessons/SQLInjection/SearchStaff.jsp
+[2019-02-26 20:21:21.260 INFO  1450]
+Processing /Users/zacharylewis/Desktop/fodjavauploaddemo/WebGoat5.0/WebContent/lessons/CrossSiteScripting/ViewProfile.jsp
+[2019-02-26 20:21:21.273 INFO  1450]
+Processing /Users/zacharylewis/Desktop/fodjavauploaddemo/WebGoat5.0/WebContent/lessons/RoleBasedAccessControl/RoleBasedAccessControl.jsp
+[2019-02-26 20:21:21.276 INFO  1450]
+Processing /Users/zacharylewis/Desktop/fodjavauploaddemo/WebGoat5.0/WebContent/lessons/CrossSiteScripting/Login.jsp
+[2019-02-26 20:21:21.280 INFO  1450]
+Processing /Users/zacharylewis/Desktop/fodjavauploaddemo/WebGoat5.0/WebContent/lessons/SQLInjection/EditProfile.jsp
+[2019-02-26 20:21:21.293 INFO  1450]
+Processing /Users/zacharylewis/Desktop/fodjavauploaddemo/WebGoat5.0/WebContent/lessons/CrossSiteScripting/error.jsp
+[2019-02-26 20:21:21.295 INFO  1450]
+Processing /Users/zacharylewis/Desktop/fodjavauploaddemo/WebGoat5.0/WebContent/webgoat_challenge.jsp
+[2019-02-26 20:21:21.304 INFO  1450]
+Processing /Users/zacharylewis/Desktop/fodjavauploaddemo/WebGoat5.0/WebContent/lessons/RoleBasedAccessControl/ViewProfile.jsp
+[2019-02-26 20:21:21.312 INFO  1450]
+Processing /Users/zacharylewis/Desktop/fodjavauploaddemo/WebGoat5.0/WebContent/lessons/RoleBasedAccessControl/Login.jsp
+[2019-02-26 20:21:21.315 INFO  1450]
+Processing /Users/zacharylewis/Desktop/fodjavauploaddemo/WebGoat5.0/WebContent/lessons/General/redirect.jsp
+[2019-02-26 20:21:21.318 INFO  1450]
+Processing /Users/zacharylewis/Desktop/fodjavauploaddemo/WebGoat5.0/WebContent/lessons/SQLInjection/error.jsp
+[2019-02-26 20:21:21.319 INFO  1450]
+Processing /Users/zacharylewis/Desktop/fodjavauploaddemo/WebGoat5.0/WebContent/lessons/CrossSiteScripting/EditProfile.jsp
+[2019-02-26 20:21:21.326 INFO  1450]
+Processing /Users/zacharylewis/Desktop/fodjavauploaddemo/WebGoat5.0/WebContent/main.jsp
+[2019-02-26 20:21:21.338 INFO  1450]
+Processing /Users/zacharylewis/Desktop/fodjavauploaddemo/WebGoat5.0/WebContent/lessons/RoleBasedAccessControl/ListStaff.jsp
+[2019-02-26 20:21:21.341 INFO  1450]
+Processing /Users/zacharylewis/Desktop/fodjavauploaddemo/WebGoat5.0/WebContent/lessons/RoleBasedAccessControl/SearchStaff.jsp
+[2019-02-26 20:21:21.344 INFO  1450]
+Processing /Users/zacharylewis/Desktop/fodjavauploaddemo/WebGoat5.0/WebContent/lessons/CrossSiteScripting/CrossSiteScripting.jsp
+[2019-02-26 20:21:21.355 INFO  1450]
+Processing /Users/zacharylewis/Desktop/fodjavauploaddemo/WebGoat5.0/WebContent/lessons/RoleBasedAccessControl/EditProfile.jsp
+[2019-02-26 20:21:21.362 INFO  1450]
+Processing /Users/zacharylewis/Desktop/fodjavauploaddemo/WebGoat5.0/WebContent/lessons/SQLInjection/ViewProfile.jsp
+[2019-02-26 20:21:21.368 INFO  1450]
+Processing /Users/zacharylewis/Desktop/fodjavauploaddemo/WebGoat5.0/WebContent/lessons/CrossSiteScripting/ListStaff.jsp
+[2019-02-26 20:21:21.374 INFO  1450]
+Processing /Users/zacharylewis/Desktop/fodjavauploaddemo/WebGoat5.0/WebContent/lessons/ConfManagement/config.jsp
+[2019-02-26 20:21:21.379 INFO  1450]
+Processing /Users/zacharylewis/Desktop/fodjavauploaddemo/WebGoat5.0/WebContent/webgoat.jsp
+[2019-02-26 20:21:21.387 INFO  1450]
+Processing /Users/zacharylewis/Desktop/fodjavauploaddemo/WebGoat5.0/WebContent/sideWindow.jsp
+[2019-02-26 20:21:21.390 INFO  1450]
+Processing /Users/zacharylewis/Desktop/fodjavauploaddemo/WebGoat5.0/WebContent/lessons/SQLInjection/error.jsp
+[2019-02-26 20:21:21.461 INFO  1450]
+Processing /Users/zacharylewis/Desktop/fodjavauploaddemo/WebGoat5.0/WebContent/lessons/CrossSiteScripting/SearchStaff.jsp
+[2019-02-26 20:21:21.499 INFO  1450]
+Processing /Users/zacharylewis/Desktop/fodjavauploaddemo/WebGoat5.0/WebContent/webgoat_challenge.jsp
+[2019-02-26 20:21:21.533 INFO  1450]
+Processing /Users/zacharylewis/Desktop/fodjavauploaddemo/WebGoat5.0/WebContent/lessons/RoleBasedAccessControl/Login.jsp
+[2019-02-26 20:21:21.577 INFO  1450]
+Processing /Users/zacharylewis/Desktop/fodjavauploaddemo/WebGoat5.0/WebContent/main.jsp
+[2019-02-26 20:21:21.681 INFO  1450]
+Processing /Users/zacharylewis/Desktop/fodjavauploaddemo/WebGoat5.0/WebContent/lessons/ConfManagement/config.jsp
+[2019-02-26 20:21:21.709 INFO  1450]
+Processing /Users/zacharylewis/Desktop/fodjavauploaddemo/WebGoat5.0/WebContent/lessons/CrossSiteScripting/ListStaff.jsp
+[2019-02-26 20:21:21.755 INFO  1450]
+Processing /Users/zacharylewis/Desktop/fodjavauploaddemo/WebGoat5.0/WebContent/lessons/SQLInjection/EditProfile.jsp
+[2019-02-26 20:21:21.826 INFO  1450]
+Processing /Users/zacharylewis/Desktop/fodjavauploaddemo/WebGoat5.0/WebContent/lessons/SQLInjection/Login.jsp
+[2019-02-26 20:21:21.869 INFO  1450]
+Processing /Users/zacharylewis/Desktop/fodjavauploaddemo/WebGoat5.0/WebContent/lessons/General/redirect.jsp
+[2019-02-26 20:21:21.903 INFO  1450]
+Processing /Users/zacharylewis/Desktop/fodjavauploaddemo/WebGoat5.0/WebContent/lessons/CrossSiteScripting/ViewProfile.jsp
+[2019-02-26 20:21:22.020 INFO  1450]
+Processing /Users/zacharylewis/Desktop/fodjavauploaddemo/WebGoat5.0/WebContent/lessons/RoleBasedAccessControl/EditProfile.jsp
+[2019-02-26 20:21:22.114 INFO  1450]
+Processing /Users/zacharylewis/Desktop/fodjavauploaddemo/WebGoat5.0/WebContent/lessons/RoleBasedAccessControl/RoleBasedAccessControl.jsp
+[2019-02-26 20:21:22.170 INFO  1450]
+Processing /Users/zacharylewis/Desktop/fodjavauploaddemo/WebGoat5.0/WebContent/lessons/RoleBasedAccessControl/error.jsp
+[2019-02-26 20:21:22.220 INFO  1450]
+Processing /Users/zacharylewis/Desktop/fodjavauploaddemo/WebGoat5.0/WebContent/lessons/RoleBasedAccessControl/SearchStaff.jsp
+[2019-02-26 20:21:22.280 INFO  1450]
+Processing /Users/zacharylewis/Desktop/fodjavauploaddemo/WebGoat5.0/WebContent/lessons/CrossSiteScripting/EditProfile.jsp
+[2019-02-26 20:21:22.320 INFO  1450]
+Processing /Users/zacharylewis/Desktop/fodjavauploaddemo/WebGoat5.0/WebContent/sideWindow.jsp
+[2019-02-26 20:21:22.352 INFO  1450]
+Processing /Users/zacharylewis/Desktop/fodjavauploaddemo/WebGoat5.0/WebContent/lessons/SQLInjection/SearchStaff.jsp
+[2019-02-26 20:21:22.380 INFO  1450]
+Processing /Users/zacharylewis/Desktop/fodjavauploaddemo/WebGoat5.0/WebContent/lessons/CrossSiteScripting/error.jsp
+[2019-02-26 20:21:22.410 INFO  1450]
+Processing /Users/zacharylewis/Desktop/fodjavauploaddemo/WebGoat5.0/WebContent/lessons/RoleBasedAccessControl/ViewProfile.jsp
+[2019-02-26 20:21:22.451 INFO  1450]
+Processing /Users/zacharylewis/Desktop/fodjavauploaddemo/WebGoat5.0/WebContent/lessons/SQLInjection/SQLInjection.jsp
+[2019-02-26 20:21:22.475 INFO  1450]
+Processing /Users/zacharylewis/Desktop/fodjavauploaddemo/WebGoat5.0/WebContent/lessons/CrossSiteScripting/CrossSiteScripting.jsp
+[2019-02-26 20:21:22.506 INFO  1450]
+Processing /Users/zacharylewis/Desktop/fodjavauploaddemo/WebGoat5.0/WebContent/lessons/SQLInjection/ViewProfile.jsp
+[2019-02-26 20:21:22.547 INFO  1450]
+Processing /Users/zacharylewis/Desktop/fodjavauploaddemo/WebGoat5.0/WebContent/lessons/CrossSiteScripting/Login.jsp
+[2019-02-26 20:21:22.582 INFO  1450]
+Processing /Users/zacharylewis/Desktop/fodjavauploaddemo/WebGoat5.0/WebContent/webgoat.jsp
+[2019-02-26 20:21:22.606 INFO  1450]
+Processing /Users/zacharylewis/Desktop/fodjavauploaddemo/WebGoat5.0/WebContent/lessons/SQLInjection/ListStaff.jsp
+[2019-02-26 20:21:22.638 INFO  1450]
+Processing /Users/zacharylewis/Desktop/fodjavauploaddemo/WebGoat5.0/WebContent/lessons/RoleBasedAccessControl/ListStaff.jsp
+[2019-02-26 20:21:24.633 INFO  1450]
+Processing /Users/zacharylewis/Desktop/fodjavauploaddemo/WebGoat5.0/WebContent/lesson_plans/WSDLScanning.html
+[2019-02-26 20:21:24.646 INFO  1450]
+Processing /Users/zacharylewis/Desktop/fodjavauploaddemo/WebGoat5.0/WebContent/lesson_plans/HttpOnly.html
+[2019-02-26 20:21:24.648 INFO  1450]
+Processing /Users/zacharylewis/Desktop/fodjavauploaddemo/WebGoat5.0/WebContent/lesson_plans/WelcomeScreeen.html
+[2019-02-26 20:21:24.649 INFO  1450]
+Processing /Users/zacharylewis/Desktop/fodjavauploaddemo/WebGoat5.0/WebContent/lesson_plans/HttpSplitting.html
+[2019-02-26 20:21:24.651 INFO  1450]
+Processing /Users/zacharylewis/Desktop/fodjavauploaddemo/WebGoat5.0/WebContent/lesson_plans/ReflectedXSS.html
+[2019-02-26 20:21:24.652 INFO  1450]
+Processing /Users/zacharylewis/Desktop/fodjavauploaddemo/WebGoat5.0/WebContent/lesson_plans/RoleBasedAccessControl.html
+[2019-02-26 20:21:24.653 INFO  1450]
+Processing /Users/zacharylewis/Desktop/fodjavauploaddemo/WebGoat5.0/WebContent/lesson_plans/WsSAXInjection.html
+[2019-02-26 20:21:24.655 INFO  1450]
+Processing /Users/zacharylewis/Desktop/fodjavauploaddemo/WebGoat5.0/WebContent/lesson_plans/HttpBasics.html
+[2019-02-26 20:21:24.656 INFO  1450]
+Processing /Users/zacharylewis/Desktop/fodjavauploaddemo/WebGoat5.0/WebContent/lesson_plans/BasicAuthentication.html
+[2019-02-26 20:21:24.657 INFO  1450]
+Processing /Users/zacharylewis/Desktop/fodjavauploaddemo/WebGoat5.0/WebContent/lesson_plans/WeakAuthenticationCookie.html
+[2019-02-26 20:21:24.659 INFO  1450]
+Processing /Users/zacharylewis/Desktop/fodjavauploaddemo/WebGoat5.0/WebContent/lesson_plans/HtmlClues.html
+[2019-02-26 20:21:24.660 INFO  1450]
+Processing /Users/zacharylewis/Desktop/fodjavauploaddemo/WebGoat5.0/WebContent/lesson_template/lessons.html
+[2019-02-26 20:21:24.664 INFO  1450]
+Processing /Users/zacharylewis/Desktop/fodjavauploaddemo/WebGoat5.0/WebContent/lesson_plans/XPATHInjection.html
+[2019-02-26 20:21:24.665 INFO  1450]
+Processing /Users/zacharylewis/Desktop/fodjavauploaddemo/WebGoat5.0/WebContent/lesson_plans/AccessControlMatrix.html
+[2019-02-26 20:21:24.666 INFO  1450]
+Processing /Users/zacharylewis/Desktop/fodjavauploaddemo/WebGoat5.0/WebContent/lesson_plans/Encoding.html
+[2019-02-26 20:21:24.668 INFO  1450]
+Processing /Users/zacharylewis/Desktop/fodjavauploaddemo/WebGoat5.0/WebContent/lesson_plans/SqlNumericInjection.html
+[2019-02-26 20:21:24.672 INFO  1450]
+Processing /Users/zacharylewis/Desktop/fodjavauploaddemo/WebGoat5.0/WebContent/lesson_plans/CommandInjection.html
+[2019-02-26 20:21:24.677 INFO  1450]
+Processing /Users/zacharylewis/Desktop/fodjavauploaddemo/WebGoat5.0/WebContent/lesson_plans/JavaScriptValidation.html
+[2019-02-26 20:21:24.680 INFO  1450]
+Processing /Users/zacharylewis/Desktop/fodjavauploaddemo/WebGoat5.0/WebContent/lesson_plans/TraceXSS.html
+[2019-02-26 20:21:24.682 INFO  1450]
+Processing /Users/zacharylewis/Desktop/fodjavauploaddemo/WebGoat5.0/WebContent/lesson_plans/NewLesson.html
+[2019-02-26 20:21:24.684 INFO  1450]
+Processing /Users/zacharylewis/Desktop/fodjavauploaddemo/WebGoat5.0/WebContent/lesson_plans/ChallengeScreen.html
+[2019-02-26 20:21:24.685 INFO  1450]
+Processing /Users/zacharylewis/Desktop/fodjavauploaddemo/WebGoat5.0/WebContent/lesson_plans/PathBasedAccessControl.html
+[2019-02-26 20:21:24.686 INFO  1450]
+Processing /Users/zacharylewis/Desktop/fodjavauploaddemo/WebGoat5.0/WebContent/lesson_plans/BlindSqlInjection.html
+[2019-02-26 20:21:24.688 INFO  1450]
+Processing /Users/zacharylewis/Desktop/fodjavauploaddemo/WebGoat5.0/WebContent/lesson_plans/CSRF.html
+[2019-02-26 20:21:24.689 INFO  1450]
+Processing /Users/zacharylewis/Desktop/fodjavauploaddemo/WebGoat5.0/WebContent/lesson_plans/JSONInjection.html
+[2019-02-26 20:21:24.691 INFO  1450]
+Processing /Users/zacharylewis/Desktop/fodjavauploaddemo/WebGoat5.0/WebContent/lesson_plans/SqlStringInjection.html
+[2019-02-26 20:21:24.693 INFO  1450]
+Processing /Users/zacharylewis/Desktop/fodjavauploaddemo/WebGoat5.0/WebContent/lesson_plans/CrossSiteScripting.html
+[2019-02-26 20:21:24.694 INFO  1450]
+Processing /Users/zacharylewis/Desktop/fodjavauploaddemo/WebGoat5.0/WebContent/lesson_plans/StoredXss.html
+[2019-02-26 20:21:24.695 INFO  1450]
+Processing /Users/zacharylewis/Desktop/fodjavauploaddemo/WebGoat5.0/WebContent/lesson_plans/HiddenFieldTampering.html
+[2019-02-26 20:21:24.697 INFO  1450]
+Processing /Users/zacharylewis/Desktop/fodjavauploaddemo/WebGoat5.0/WebContent/lesson_plans/DOMInjection.html
+[2019-02-26 20:21:24.700 INFO  1450]
+Processing /Users/zacharylewis/Desktop/fodjavauploaddemo/WebGoat5.0/WebContent/lesson_plans/BufferOverflow.html
+[2019-02-26 20:21:24.703 INFO  1450]
+Processing /Users/zacharylewis/Desktop/fodjavauploaddemo/WebGoat5.0/WebContent/lesson_plans/WsSqlInjection.html
+[2019-02-26 20:21:24.705 INFO  1450]
+Processing /Users/zacharylewis/Desktop/fodjavauploaddemo/WebGoat5.0/WebContent/lesson_plans/XMLInjection.html
+[2019-02-26 20:21:24.706 INFO  1450]
+Processing /Users/zacharylewis/Desktop/fodjavauploaddemo/WebGoat5.0/WebContent/lesson_plans/RemoteAdminFlaw.html
+[2019-02-26 20:21:24.707 INFO  1450]
+Processing /Users/zacharylewis/Desktop/fodjavauploaddemo/WebGoat5.0/WebContent/lesson_plans/UncheckedEmail.html
+[2019-02-26 20:21:24.708 INFO  1450]
+Processing /Users/zacharylewis/Desktop/fodjavauploaddemo/WebGoat5.0/WebContent/lesson_plans/ThreadSafetyProblem.html
+[2019-02-26 20:21:24.710 INFO  1450]
+Processing /Users/zacharylewis/Desktop/fodjavauploaddemo/WebGoat5.0/WebContent/lesson_plans/BackDoors.html
+[2019-02-26 20:21:24.711 INFO  1450]
+Processing /Users/zacharylewis/Desktop/fodjavauploaddemo/WebGoat5.0/WebContent/lesson_plans/SoapRequest.html
+[2019-02-26 20:21:24.712 INFO  1450]
+Processing /Users/zacharylewis/Desktop/fodjavauploaddemo/WebGoat5.0/WebContent/lesson_plans/ForcedBrowsing.html
+[2019-02-26 20:21:24.714 INFO  1450]
+Processing /Users/zacharylewis/Desktop/fodjavauploaddemo/WebGoat5.0/WebContent/lesson_plans/SilentTransactions.html
+[2019-02-26 20:21:24.716 INFO  1450]
+Processing /Users/zacharylewis/Desktop/fodjavauploaddemo/WebGoat5.0/WebContent/lesson_plans/FailOpenAuthentication.html
+[2019-02-26 20:21:24.717 INFO  1450]
+Processing /Users/zacharylewis/Desktop/fodjavauploaddemo/WebGoat5.0/WebContent/lesson_plans/DOS_Login.html
+[2019-02-26 20:21:24.718 INFO  1450]
+Processing /Users/zacharylewis/Desktop/fodjavauploaddemo/WebGoat5.0/WebContent/lesson_plans/WeakSessionID.html
+[2019-02-26 20:21:24.719 INFO  1450]
+Processing /Users/zacharylewis/Desktop/fodjavauploaddemo/WebGoat5.0/WebContent/lesson_plans/ForgotPassword.html
+[2019-02-26 20:21:24.720 INFO  1450]
+Processing /Users/zacharylewis/Desktop/fodjavauploaddemo/WebGoat5.0/WebContent/lesson_plans/LogSpoofing.html
+[2019-02-26 20:21:24.721 INFO  1450]
+Processing /Users/zacharylewis/Desktop/fodjavauploaddemo/WebGoat5.0/WebContent/lesson_plans/Lesson_Plan_Template.html
+[2019-02-26 20:21:24.729 INFO  1450]
+Processing /Users/zacharylewis/.fortify/sca18.2/build/fodTranslate/_fortify_libraries_/lib.js
+[2019-02-26 20:21:25.019 INFO  1450]
+Processing /Users/zacharylewis/Desktop/fodjavauploaddemo/WebGoat5.0/WebContent/javascript/makeWindow.js
+[2019-02-26 20:21:25.024 INFO  1450]
+Processing /Users/zacharylewis/Desktop/fodjavauploaddemo/WebGoat5.0/WebContent/javascript/menu_system.js
+[2019-02-26 20:21:25.096 INFO  1450]
+Processing /Users/zacharylewis/Desktop/fodjavauploaddemo/WebGoat5.0/WebContent/javascript/javascript.js
+[2019-02-26 20:21:25.101 INFO  1450]
+Processing /Users/zacharylewis/Desktop/fodjavauploaddemo/WebGoat5.0/WebContent/javascript/toggle.js
+[2019-02-26 20:21:25.108 INFO  1450]
+Processing /Users/zacharylewis/Desktop/fodjavauploaddemo/WebGoat5.0/WebContent/javascript/lessonNav.js
+[2019-02-26 20:21:25.233 INFO  1450]
+Processing /Users/zacharylewis/.fortify/sca18.2/build/fodTranslate/extracted/javascript/Users/zacharylewis/Desktop/fodjavauploaddemo/WebGoat5.0/WebContent/lesson_template/lessons.html.js
+[2019-02-26 20:21:25.237 INFO  1450]
+Processing /Users/zacharylewis/.fortify/sca18.2/build/fodTranslate/extracted/javascript/Users/zacharylewis/Desktop/fodjavauploaddemo/WebGoat5.0/WebContent/lesson_plans/ThreadSafetyProblem.html.js

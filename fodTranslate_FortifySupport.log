@@ -1,0 +1,933 @@
+[2019-02-26 20:21:09.616 INFO  ]
+loggerConfig:
+   level:INFO
+   filename:fodTranslate.log
+   appendLogFile:true
+   installLoggingPrintStreams:true
+
+   logger:com.fortify.logging.log4j2.LoggerFactory marker:DEV thread:sourceanalyzer-10
+   MDC:{msgId=-1, severity=NONE} NDC:[]
+[2019-02-26 20:21:09.961 INFO  ]
+message suppression file not found /Applications/Fortify/Fortify_SCA_and_Apps_18.20/Core/config/suppressions.json
+   logger:com.fortify.messaging.MessageSuppressor marker:DEV thread:sourceanalyzer-10
+   MDC:{msgId=-1, severity=NONE} NDC:[]
+[2019-02-26 20:21:09.966 INFO  ]
+0 suppressions loaded
+   logger:com.fortify.sca.cmd.CommandLine marker:DEV thread:sourceanalyzer-10
+   MDC:{msgId=-1, severity=NONE} NDC:[]
+[2019-02-26 20:21:09.967 INFO  ]
+message level adjustment file not found: /Applications/Fortify/Fortify_SCA_and_Apps_18.20/Core/config/levels.json
+   logger:com.fortify.logging.log4j2.LevelAdjuster marker:DEV thread:sourceanalyzer-10
+   MDC:{msgId=-1, severity=NONE} NDC:[]
+[2019-02-26 20:21:09.969 INFO  ]
+0 level adjustments loaded
+   logger:com.fortify.sca.cmd.CommandLine marker:DEV thread:sourceanalyzer-10
+   MDC:{msgId=-1, severity=NONE} NDC:[]
+[2019-02-26 20:21:10.081 INFO  ]
+Fortify Static Code Analyzer 18.20.1071 (using JRE 1.8.0_181)
+   logger:com.fortify.sca.Main marker:DEV thread:sourceanalyzer-10
+   MDC:{msgId=-1, severity=INFO_VERBOSE, stdout=true} NDC:[]
+[2019-02-26 20:21:10.082 INFO  ]
+Args:
+["-b", "fodTranslate", "-verbose", "-logfile", "fodTranslate.log", "WebGoat5.0", "-extdirs", "tmp_scajars"]
+   logger:com.fortify.sca.Main marker:DEV thread:sourceanalyzer-10
+   MDC:{msgId=-1, severity=LOG_STATUS} NDC:[]
+[2019-02-26 20:21:10.082 INFO  ]
+VM Args:
+"-XX:SoftRefLRUPolicyMSPerMB=3000 -Xmx6442450944 -Xss16M"
+   logger:com.fortify.sca.Main marker:DEV thread:sourceanalyzer-10
+   MDC:{msgId=-1, severity=LOG_STATUS} NDC:[]
+[2019-02-26 20:21:11.846 WARN  12003]
+Assuming Java source level to be 1.8 as it was not specified. Note that the default value may change in future versions.
+   logger:com.fortify.sca.frontend.JavaFrontEnd marker:USER thread:sourceanalyzer-10
+   MDC:{frontend=JavaFrontEnd, msgId=12003, prefix=[warning]: , severity=WARNING, stderr=true, step=SRC_PARSE} NDC:[]
+[2019-02-26 20:21:11.853 INFO  ]
+Translating 103 java files
+   logger:com.fortify.sca.frontend.JavaFrontEnd marker:DEV thread:sourceanalyzer-10
+   MDC:{frontend=JavaFrontEnd, msgId=-1, prefix=[warning]: , severity=LOG_STATUS, step=SRC_PARSE} NDC:[]
+[2019-02-26 20:21:11.856 INFO  1450]
+Processing /Users/zacharylewis/Desktop/fodjavauploaddemo/WebGoat5.0/JavaSource/org/owasp/webgoat/HammerHead.java
+   logger:com.fortify.sca.frontend.JavaFrontEnd marker:USER thread:sourceanalyzer-10
+   MDC:{frontend=JavaFrontEnd, msgId=1450, pass=Processing, prefix=[warning]: , severity=INFO_VERBOSE, sourceInfo=HammerHead.java, stdout=true, step=SRC_PARSE} NDC:[]
+[2019-02-26 20:21:12.387 INFO  1450]
+Processing /Users/zacharylewis/Desktop/fodjavauploaddemo/WebGoat5.0/JavaSource/org/owasp/webgoat/LessonSource.java
+   logger:com.fortify.sca.frontend.JavaFrontEnd marker:USER thread:sourceanalyzer-10
+   MDC:{frontend=JavaFrontEnd, msgId=1450, pass=Processing, prefix=[warning]: , severity=INFO_VERBOSE, sourceInfo=LessonSource.java, stdout=true, step=SRC_PARSE} NDC:[]
+[2019-02-26 20:21:12.405 INFO  1450]
+Processing /Users/zacharylewis/Desktop/fodjavauploaddemo/WebGoat5.0/JavaSource/org/owasp/webgoat/lessons/AbstractLesson.java
+   logger:com.fortify.sca.frontend.JavaFrontEnd marker:USER thread:sourceanalyzer-10
+   MDC:{frontend=JavaFrontEnd, msgId=1450, pass=Processing, prefix=[warning]: , severity=INFO_VERBOSE, sourceInfo=AbstractLesson.java, stdout=true, step=SRC_PARSE} NDC:[]
+[2019-02-26 20:21:12.524 INFO  1450]
+Processing /Users/zacharylewis/Desktop/fodjavauploaddemo/WebGoat5.0/JavaSource/org/owasp/webgoat/lessons/AccessControlMatrix.java
+   logger:com.fortify.sca.frontend.JavaFrontEnd marker:USER thread:sourceanalyzer-10
+   MDC:{frontend=JavaFrontEnd, msgId=1450, pass=Processing, prefix=[warning]: , severity=INFO_VERBOSE, sourceInfo=AccessControlMatrix.java, stdout=true, step=SRC_PARSE} NDC:[]
+[2019-02-26 20:21:12.548 INFO  1450]
+Processing /Users/zacharylewis/Desktop/fodjavauploaddemo/WebGoat5.0/JavaSource/org/owasp/webgoat/lessons/BackDoors.java
+   logger:com.fortify.sca.frontend.JavaFrontEnd marker:USER thread:sourceanalyzer-10
+   MDC:{frontend=JavaFrontEnd, msgId=1450, pass=Processing, prefix=[warning]: , severity=INFO_VERBOSE, sourceInfo=BackDoors.java, stdout=true, step=SRC_PARSE} NDC:[]
+[2019-02-26 20:21:12.589 INFO  1450]
+Processing /Users/zacharylewis/Desktop/fodjavauploaddemo/WebGoat5.0/JavaSource/org/owasp/webgoat/lessons/BasicAuthentication.java
+   logger:com.fortify.sca.frontend.JavaFrontEnd marker:USER thread:sourceanalyzer-10
+   MDC:{frontend=JavaFrontEnd, msgId=1450, pass=Processing, prefix=[warning]: , severity=INFO_VERBOSE, sourceInfo=BasicAuthentication.java, stdout=true, step=SRC_PARSE} NDC:[]
+[2019-02-26 20:21:12.613 INFO  1450]
+Processing /Users/zacharylewis/Desktop/fodjavauploaddemo/WebGoat5.0/JavaSource/org/owasp/webgoat/lessons/BlindSqlInjection.java
+   logger:com.fortify.sca.frontend.JavaFrontEnd marker:USER thread:sourceanalyzer-10
+   MDC:{frontend=JavaFrontEnd, msgId=1450, pass=Processing, prefix=[warning]: , severity=INFO_VERBOSE, sourceInfo=BlindSqlInjection.java, stdout=true, step=SRC_PARSE} NDC:[]
+[2019-02-26 20:21:12.632 INFO  1450]
+Processing /Users/zacharylewis/Desktop/fodjavauploaddemo/WebGoat5.0/JavaSource/org/owasp/webgoat/lessons/BufferOverflow.java
+   logger:com.fortify.sca.frontend.JavaFrontEnd marker:USER thread:sourceanalyzer-10
+   MDC:{frontend=JavaFrontEnd, msgId=1450, pass=Processing, prefix=[warning]: , severity=INFO_VERBOSE, sourceInfo=BufferOverflow.java, stdout=true, step=SRC_PARSE} NDC:[]
+[2019-02-26 20:21:12.638 INFO  1450]
+Processing /Users/zacharylewis/Desktop/fodjavauploaddemo/WebGoat5.0/JavaSource/org/owasp/webgoat/lessons/CSRF.java
+   logger:com.fortify.sca.frontend.JavaFrontEnd marker:USER thread:sourceanalyzer-10
+   MDC:{frontend=JavaFrontEnd, msgId=1450, pass=Processing, prefix=[warning]: , severity=INFO_VERBOSE, sourceInfo=CSRF.java, stdout=true, step=SRC_PARSE} NDC:[]
+[2019-02-26 20:21:12.673 INFO  1450]
+Processing /Users/zacharylewis/Desktop/fodjavauploaddemo/WebGoat5.0/JavaSource/org/owasp/webgoat/lessons/Category.java
+   logger:com.fortify.sca.frontend.JavaFrontEnd marker:USER thread:sourceanalyzer-10
+   MDC:{frontend=JavaFrontEnd, msgId=1450, pass=Processing, prefix=[warning]: , severity=INFO_VERBOSE, sourceInfo=Category.java, stdout=true, step=SRC_PARSE} NDC:[]
+[2019-02-26 20:21:12.679 INFO  1450]
+Processing /Users/zacharylewis/Desktop/fodjavauploaddemo/WebGoat5.0/JavaSource/org/owasp/webgoat/lessons/Challenge2Screen.java
+   logger:com.fortify.sca.frontend.JavaFrontEnd marker:USER thread:sourceanalyzer-10
+   MDC:{frontend=JavaFrontEnd, msgId=1450, pass=Processing, prefix=[warning]: , severity=INFO_VERBOSE, sourceInfo=Challenge2Screen.java, stdout=true, step=SRC_PARSE} NDC:[]
+[2019-02-26 20:21:12.741 INFO  1450]
+Processing /Users/zacharylewis/Desktop/fodjavauploaddemo/WebGoat5.0/JavaSource/org/owasp/webgoat/lessons/CommandInjection.java
+   logger:com.fortify.sca.frontend.JavaFrontEnd marker:USER thread:sourceanalyzer-10
+   MDC:{frontend=JavaFrontEnd, msgId=1450, pass=Processing, prefix=[warning]: , severity=INFO_VERBOSE, sourceInfo=CommandInjection.java, stdout=true, step=SRC_PARSE} NDC:[]
+[2019-02-26 20:21:12.764 INFO  1450]
+Processing /Users/zacharylewis/Desktop/fodjavauploaddemo/WebGoat5.0/JavaSource/org/owasp/webgoat/lessons/CrossSiteScripting/CrossSiteScripting.java
+   logger:com.fortify.sca.frontend.JavaFrontEnd marker:USER thread:sourceanalyzer-10
+   MDC:{frontend=JavaFrontEnd, msgId=1450, pass=Processing, prefix=[warning]: , severity=INFO_VERBOSE, sourceInfo=CrossSiteScripting.java, stdout=true, step=SRC_PARSE} NDC:[]
+[2019-02-26 20:21:12.793 INFO  1450]
+Processing /Users/zacharylewis/Desktop/fodjavauploaddemo/WebGoat5.0/JavaSource/org/owasp/webgoat/lessons/CrossSiteScripting/EditProfile.java
+   logger:com.fortify.sca.frontend.JavaFrontEnd marker:USER thread:sourceanalyzer-10
+   MDC:{frontend=JavaFrontEnd, msgId=1450, pass=Processing, prefix=[warning]: , severity=INFO_VERBOSE, sourceInfo=EditProfile.java, stdout=true, step=SRC_PARSE} NDC:[]
+[2019-02-26 20:21:12.804 INFO  1450]
+Processing /Users/zacharylewis/Desktop/fodjavauploaddemo/WebGoat5.0/JavaSource/org/owasp/webgoat/lessons/CrossSiteScripting/FindProfile.java
+   logger:com.fortify.sca.frontend.JavaFrontEnd marker:USER thread:sourceanalyzer-10
+   MDC:{frontend=JavaFrontEnd, msgId=1450, pass=Processing, prefix=[warning]: , severity=INFO_VERBOSE, sourceInfo=FindProfile.java, stdout=true, step=SRC_PARSE} NDC:[]
+[2019-02-26 20:21:12.817 INFO  1450]
+Processing /Users/zacharylewis/Desktop/fodjavauploaddemo/WebGoat5.0/JavaSource/org/owasp/webgoat/lessons/CrossSiteScripting/UpdateProfile.java
+   logger:com.fortify.sca.frontend.JavaFrontEnd marker:USER thread:sourceanalyzer-10
+   MDC:{frontend=JavaFrontEnd, msgId=1450, pass=Processing, prefix=[warning]: , severity=INFO_VERBOSE, sourceInfo=UpdateProfile.java, stdout=true, step=SRC_PARSE} NDC:[]
+[2019-02-26 20:21:12.839 INFO  1450]
+Processing /Users/zacharylewis/Desktop/fodjavauploaddemo/WebGoat5.0/JavaSource/org/owasp/webgoat/lessons/CrossSiteScripting/ViewProfile.java
+   logger:com.fortify.sca.frontend.JavaFrontEnd marker:USER thread:sourceanalyzer-10
+   MDC:{frontend=JavaFrontEnd, msgId=1450, pass=Processing, prefix=[warning]: , severity=INFO_VERBOSE, sourceInfo=ViewProfile.java, stdout=true, step=SRC_PARSE} NDC:[]
+[2019-02-26 20:21:12.857 INFO  1450]
+Processing /Users/zacharylewis/Desktop/fodjavauploaddemo/WebGoat5.0/JavaSource/org/owasp/webgoat/lessons/DOMInjection.java
+   logger:com.fortify.sca.frontend.JavaFrontEnd marker:USER thread:sourceanalyzer-10
+   MDC:{frontend=JavaFrontEnd, msgId=1450, pass=Processing, prefix=[warning]: , severity=INFO_VERBOSE, sourceInfo=DOMInjection.java, stdout=true, step=SRC_PARSE} NDC:[]
+[2019-02-26 20:21:12.869 INFO  1450]
+Processing /Users/zacharylewis/Desktop/fodjavauploaddemo/WebGoat5.0/JavaSource/org/owasp/webgoat/lessons/DOS_Login.java
+   logger:com.fortify.sca.frontend.JavaFrontEnd marker:USER thread:sourceanalyzer-10
+   MDC:{frontend=JavaFrontEnd, msgId=1450, pass=Processing, prefix=[warning]: , severity=INFO_VERBOSE, sourceInfo=DOS_Login.java, stdout=true, step=SRC_PARSE} NDC:[]
+[2019-02-26 20:21:12.888 INFO  1450]
+Processing /Users/zacharylewis/Desktop/fodjavauploaddemo/WebGoat5.0/JavaSource/org/owasp/webgoat/lessons/DefaultLessonAction.java
+   logger:com.fortify.sca.frontend.JavaFrontEnd marker:USER thread:sourceanalyzer-10
+   MDC:{frontend=JavaFrontEnd, msgId=1450, pass=Processing, prefix=[warning]: , severity=INFO_VERBOSE, sourceInfo=DefaultLessonAction.java, stdout=true, step=SRC_PARSE} NDC:[]
+[2019-02-26 20:21:12.912 INFO  1450]
+Processing /Users/zacharylewis/Desktop/fodjavauploaddemo/WebGoat5.0/JavaSource/org/owasp/webgoat/lessons/Encoding.java
+   logger:com.fortify.sca.frontend.JavaFrontEnd marker:USER thread:sourceanalyzer-10
+   MDC:{frontend=JavaFrontEnd, msgId=1450, pass=Processing, prefix=[warning]: , severity=INFO_VERBOSE, sourceInfo=Encoding.java, stdout=true, step=SRC_PARSE} NDC:[]
+[2019-02-26 20:21:12.979 INFO  1450]
+Processing /Users/zacharylewis/Desktop/fodjavauploaddemo/WebGoat5.0/JavaSource/org/owasp/webgoat/lessons/FailOpenAuthentication.java
+   logger:com.fortify.sca.frontend.JavaFrontEnd marker:USER thread:sourceanalyzer-10
+   MDC:{frontend=JavaFrontEnd, msgId=1450, pass=Processing, prefix=[warning]: , severity=INFO_VERBOSE, sourceInfo=FailOpenAuthentication.java, stdout=true, step=SRC_PARSE} NDC:[]
+[2019-02-26 20:21:12.990 INFO  1450]
+Processing /Users/zacharylewis/Desktop/fodjavauploaddemo/WebGoat5.0/JavaSource/org/owasp/webgoat/lessons/ForcedBrowsing.java
+   logger:com.fortify.sca.frontend.JavaFrontEnd marker:USER thread:sourceanalyzer-10
+   MDC:{frontend=JavaFrontEnd, msgId=1450, pass=Processing, prefix=[warning]: , severity=INFO_VERBOSE, sourceInfo=ForcedBrowsing.java, stdout=true, step=SRC_PARSE} NDC:[]
+[2019-02-26 20:21:13.001 INFO  1450]
+Processing /Users/zacharylewis/Desktop/fodjavauploaddemo/WebGoat5.0/JavaSource/org/owasp/webgoat/lessons/ForgotPassword.java
+   logger:com.fortify.sca.frontend.JavaFrontEnd marker:USER thread:sourceanalyzer-10
+   MDC:{frontend=JavaFrontEnd, msgId=1450, pass=Processing, prefix=[warning]: , severity=INFO_VERBOSE, sourceInfo=ForgotPassword.java, stdout=true, step=SRC_PARSE} NDC:[]
+[2019-02-26 20:21:13.025 INFO  1450]
+Processing /Users/zacharylewis/Desktop/fodjavauploaddemo/WebGoat5.0/JavaSource/org/owasp/webgoat/lessons/HiddenFieldTampering.java
+   logger:com.fortify.sca.frontend.JavaFrontEnd marker:USER thread:sourceanalyzer-10
+   MDC:{frontend=JavaFrontEnd, msgId=1450, pass=Processing, prefix=[warning]: , severity=INFO_VERBOSE, sourceInfo=HiddenFieldTampering.java, stdout=true, step=SRC_PARSE} NDC:[]
+[2019-02-26 20:21:13.052 INFO  1450]
+Processing /Users/zacharylewis/Desktop/fodjavauploaddemo/WebGoat5.0/JavaSource/org/owasp/webgoat/lessons/HtmlClues.java
+   logger:com.fortify.sca.frontend.JavaFrontEnd marker:USER thread:sourceanalyzer-10
+   MDC:{frontend=JavaFrontEnd, msgId=1450, pass=Processing, prefix=[warning]: , severity=INFO_VERBOSE, sourceInfo=HtmlClues.java, stdout=true, step=SRC_PARSE} NDC:[]
+[2019-02-26 20:21:13.071 INFO  1450]
+Processing /Users/zacharylewis/Desktop/fodjavauploaddemo/WebGoat5.0/JavaSource/org/owasp/webgoat/lessons/HttpBasics.java
+   logger:com.fortify.sca.frontend.JavaFrontEnd marker:USER thread:sourceanalyzer-10
+   MDC:{frontend=JavaFrontEnd, msgId=1450, pass=Processing, prefix=[warning]: , severity=INFO_VERBOSE, sourceInfo=HttpBasics.java, stdout=true, step=SRC_PARSE} NDC:[]
+[2019-02-26 20:21:13.085 INFO  1450]
+Processing /Users/zacharylewis/Desktop/fodjavauploaddemo/WebGoat5.0/JavaSource/org/owasp/webgoat/lessons/HttpOnly.java
+   logger:com.fortify.sca.frontend.JavaFrontEnd marker:USER thread:sourceanalyzer-10
+   MDC:{frontend=JavaFrontEnd, msgId=1450, pass=Processing, prefix=[warning]: , severity=INFO_VERBOSE, sourceInfo=HttpOnly.java, stdout=true, step=SRC_PARSE} NDC:[]
+[2019-02-26 20:21:13.120 INFO  1450]
+Processing /Users/zacharylewis/Desktop/fodjavauploaddemo/WebGoat5.0/JavaSource/org/owasp/webgoat/lessons/HttpSplitting.java
+   logger:com.fortify.sca.frontend.JavaFrontEnd marker:USER thread:sourceanalyzer-10
+   MDC:{frontend=JavaFrontEnd, msgId=1450, pass=Processing, prefix=[warning]: , severity=INFO_VERBOSE, sourceInfo=HttpSplitting.java, stdout=true, step=SRC_PARSE} NDC:[]
+[2019-02-26 20:21:13.138 INFO  1450]
+Processing /Users/zacharylewis/Desktop/fodjavauploaddemo/WebGoat5.0/JavaSource/org/owasp/webgoat/lessons/JSONInjection.java
+   logger:com.fortify.sca.frontend.JavaFrontEnd marker:USER thread:sourceanalyzer-10
+   MDC:{frontend=JavaFrontEnd, msgId=1450, pass=Processing, prefix=[warning]: , severity=INFO_VERBOSE, sourceInfo=JSONInjection.java, stdout=true, step=SRC_PARSE} NDC:[]
+[2019-02-26 20:21:13.154 INFO  1450]
+Processing /Users/zacharylewis/Desktop/fodjavauploaddemo/WebGoat5.0/JavaSource/org/owasp/webgoat/lessons/JavaScriptValidation.java
+   logger:com.fortify.sca.frontend.JavaFrontEnd marker:USER thread:sourceanalyzer-10
+   MDC:{frontend=JavaFrontEnd, msgId=1450, pass=Processing, prefix=[warning]: , severity=INFO_VERBOSE, sourceInfo=JavaScriptValidation.java, stdout=true, step=SRC_PARSE} NDC:[]
+[2019-02-26 20:21:13.175 INFO  1450]
+Processing /Users/zacharylewis/Desktop/fodjavauploaddemo/WebGoat5.0/JavaSource/org/owasp/webgoat/lessons/LessonAction.java
+   logger:com.fortify.sca.frontend.JavaFrontEnd marker:USER thread:sourceanalyzer-10
+   MDC:{frontend=JavaFrontEnd, msgId=1450, pass=Processing, prefix=[warning]: , severity=INFO_VERBOSE, sourceInfo=LessonAction.java, stdout=true, step=SRC_PARSE} NDC:[]
+[2019-02-26 20:21:13.178 INFO  1450]
+Processing /Users/zacharylewis/Desktop/fodjavauploaddemo/WebGoat5.0/JavaSource/org/owasp/webgoat/lessons/LessonAdapter.java
+   logger:com.fortify.sca.frontend.JavaFrontEnd marker:USER thread:sourceanalyzer-10
+   MDC:{frontend=JavaFrontEnd, msgId=1450, pass=Processing, prefix=[warning]: , severity=INFO_VERBOSE, sourceInfo=LessonAdapter.java, stdout=true, step=SRC_PARSE} NDC:[]
+[2019-02-26 20:21:13.199 INFO  1450]
+Processing /Users/zacharylewis/Desktop/fodjavauploaddemo/WebGoat5.0/JavaSource/org/owasp/webgoat/lessons/LogSpoofing.java
+   logger:com.fortify.sca.frontend.JavaFrontEnd marker:USER thread:sourceanalyzer-10
+   MDC:{frontend=JavaFrontEnd, msgId=1450, pass=Processing, prefix=[warning]: , severity=INFO_VERBOSE, sourceInfo=LogSpoofing.java, stdout=true, step=SRC_PARSE} NDC:[]
+[2019-02-26 20:21:13.209 INFO  1450]
+Processing /Users/zacharylewis/Desktop/fodjavauploaddemo/WebGoat5.0/JavaSource/org/owasp/webgoat/lessons/NewLesson.java
+   logger:com.fortify.sca.frontend.JavaFrontEnd marker:USER thread:sourceanalyzer-10
+   MDC:{frontend=JavaFrontEnd, msgId=1450, pass=Processing, prefix=[warning]: , severity=INFO_VERBOSE, sourceInfo=NewLesson.java, stdout=true, step=SRC_PARSE} NDC:[]
+[2019-02-26 20:21:13.212 INFO  1450]
+Processing /Users/zacharylewis/Desktop/fodjavauploaddemo/WebGoat5.0/JavaSource/org/owasp/webgoat/lessons/PathBasedAccessControl.java
+   logger:com.fortify.sca.frontend.JavaFrontEnd marker:USER thread:sourceanalyzer-10
+   MDC:{frontend=JavaFrontEnd, msgId=1450, pass=Processing, prefix=[warning]: , severity=INFO_VERBOSE, sourceInfo=PathBasedAccessControl.java, stdout=true, step=SRC_PARSE} NDC:[]
+[2019-02-26 20:21:13.226 INFO  1450]
+Processing /Users/zacharylewis/Desktop/fodjavauploaddemo/WebGoat5.0/JavaSource/org/owasp/webgoat/lessons/ReflectedXSS.java
+   logger:com.fortify.sca.frontend.JavaFrontEnd marker:USER thread:sourceanalyzer-10
+   MDC:{frontend=JavaFrontEnd, msgId=1450, pass=Processing, prefix=[warning]: , severity=INFO_VERBOSE, sourceInfo=ReflectedXSS.java, stdout=true, step=SRC_PARSE} NDC:[]
+[2019-02-26 20:21:13.250 INFO  1450]
+Processing /Users/zacharylewis/Desktop/fodjavauploaddemo/WebGoat5.0/JavaSource/org/owasp/webgoat/lessons/RemoteAdminFlaw.java
+   logger:com.fortify.sca.frontend.JavaFrontEnd marker:USER thread:sourceanalyzer-10
+   MDC:{frontend=JavaFrontEnd, msgId=1450, pass=Processing, prefix=[warning]: , severity=INFO_VERBOSE, sourceInfo=RemoteAdminFlaw.java, stdout=true, step=SRC_PARSE} NDC:[]
+[2019-02-26 20:21:13.255 INFO  1450]
+Processing /Users/zacharylewis/Desktop/fodjavauploaddemo/WebGoat5.0/JavaSource/org/owasp/webgoat/lessons/RoleBasedAccessControl/DeleteProfile.java
+   logger:com.fortify.sca.frontend.JavaFrontEnd marker:USER thread:sourceanalyzer-10
+   MDC:{frontend=JavaFrontEnd, msgId=1450, pass=Processing, prefix=[warning]: , severity=INFO_VERBOSE, sourceInfo=DeleteProfile.java, stdout=true, step=SRC_PARSE} NDC:[]
+[2019-02-26 20:21:13.264 INFO  1450]
+Processing /Users/zacharylewis/Desktop/fodjavauploaddemo/WebGoat5.0/JavaSource/org/owasp/webgoat/lessons/RoleBasedAccessControl/EditProfile.java
+   logger:com.fortify.sca.frontend.JavaFrontEnd marker:USER thread:sourceanalyzer-10
+   MDC:{frontend=JavaFrontEnd, msgId=1450, pass=Processing, prefix=[warning]: , severity=INFO_VERBOSE, sourceInfo=EditProfile.java, stdout=true, step=SRC_PARSE} NDC:[]
+[2019-02-26 20:21:13.274 INFO  1450]
+Processing /Users/zacharylewis/Desktop/fodjavauploaddemo/WebGoat5.0/JavaSource/org/owasp/webgoat/lessons/RoleBasedAccessControl/FindProfile.java
+   logger:com.fortify.sca.frontend.JavaFrontEnd marker:USER thread:sourceanalyzer-10
+   MDC:{frontend=JavaFrontEnd, msgId=1450, pass=Processing, prefix=[warning]: , severity=INFO_VERBOSE, sourceInfo=FindProfile.java, stdout=true, step=SRC_PARSE} NDC:[]
+[2019-02-26 20:21:13.286 INFO  1450]
+Processing /Users/zacharylewis/Desktop/fodjavauploaddemo/WebGoat5.0/JavaSource/org/owasp/webgoat/lessons/RoleBasedAccessControl/ListStaff.java
+   logger:com.fortify.sca.frontend.JavaFrontEnd marker:USER thread:sourceanalyzer-10
+   MDC:{frontend=JavaFrontEnd, msgId=1450, pass=Processing, prefix=[warning]: , severity=INFO_VERBOSE, sourceInfo=ListStaff.java, stdout=true, step=SRC_PARSE} NDC:[]
+[2019-02-26 20:21:13.296 INFO  1450]
+Processing /Users/zacharylewis/Desktop/fodjavauploaddemo/WebGoat5.0/JavaSource/org/owasp/webgoat/lessons/RoleBasedAccessControl/Login.java
+   logger:com.fortify.sca.frontend.JavaFrontEnd marker:USER thread:sourceanalyzer-10
+   MDC:{frontend=JavaFrontEnd, msgId=1450, pass=Processing, prefix=[warning]: , severity=INFO_VERBOSE, sourceInfo=Login.java, stdout=true, step=SRC_PARSE} NDC:[]
+[2019-02-26 20:21:13.312 INFO  1450]
+Processing /Users/zacharylewis/Desktop/fodjavauploaddemo/WebGoat5.0/JavaSource/org/owasp/webgoat/lessons/RoleBasedAccessControl/Logout.java
+   logger:com.fortify.sca.frontend.JavaFrontEnd marker:USER thread:sourceanalyzer-10
+   MDC:{frontend=JavaFrontEnd, msgId=1450, pass=Processing, prefix=[warning]: , severity=INFO_VERBOSE, sourceInfo=Logout.java, stdout=true, step=SRC_PARSE} NDC:[]
+[2019-02-26 20:21:13.318 INFO  1450]
+Processing /Users/zacharylewis/Desktop/fodjavauploaddemo/WebGoat5.0/JavaSource/org/owasp/webgoat/lessons/RoleBasedAccessControl/RoleBasedAccessControl.java
+   logger:com.fortify.sca.frontend.JavaFrontEnd marker:USER thread:sourceanalyzer-10
+   MDC:{frontend=JavaFrontEnd, msgId=1450, pass=Processing, prefix=[warning]: , severity=INFO_VERBOSE, sourceInfo=RoleBasedAccessControl.java, stdout=true, step=SRC_PARSE} NDC:[]
+[2019-02-26 20:21:13.361 INFO  1450]
+Processing /Users/zacharylewis/Desktop/fodjavauploaddemo/WebGoat5.0/JavaSource/org/owasp/webgoat/lessons/RoleBasedAccessControl/SearchStaff.java
+   logger:com.fortify.sca.frontend.JavaFrontEnd marker:USER thread:sourceanalyzer-10
+   MDC:{frontend=JavaFrontEnd, msgId=1450, pass=Processing, prefix=[warning]: , severity=INFO_VERBOSE, sourceInfo=SearchStaff.java, stdout=true, step=SRC_PARSE} NDC:[]
+[2019-02-26 20:21:13.364 INFO  1450]
+Processing /Users/zacharylewis/Desktop/fodjavauploaddemo/WebGoat5.0/JavaSource/org/owasp/webgoat/lessons/RoleBasedAccessControl/UpdateProfile.java
+   logger:com.fortify.sca.frontend.JavaFrontEnd marker:USER thread:sourceanalyzer-10
+   MDC:{frontend=JavaFrontEnd, msgId=1450, pass=Processing, prefix=[warning]: , severity=INFO_VERBOSE, sourceInfo=UpdateProfile.java, stdout=true, step=SRC_PARSE} NDC:[]
+[2019-02-26 20:21:13.380 INFO  1450]
+Processing /Users/zacharylewis/Desktop/fodjavauploaddemo/WebGoat5.0/JavaSource/org/owasp/webgoat/lessons/RoleBasedAccessControl/ViewProfile.java
+   logger:com.fortify.sca.frontend.JavaFrontEnd marker:USER thread:sourceanalyzer-10
+   MDC:{frontend=JavaFrontEnd, msgId=1450, pass=Processing, prefix=[warning]: , severity=INFO_VERBOSE, sourceInfo=ViewProfile.java, stdout=true, step=SRC_PARSE} NDC:[]
+[2019-02-26 20:21:13.387 INFO  1450]
+Processing /Users/zacharylewis/Desktop/fodjavauploaddemo/WebGoat5.0/JavaSource/org/owasp/webgoat/lessons/SQLInjection/ListStaff.java
+   logger:com.fortify.sca.frontend.JavaFrontEnd marker:USER thread:sourceanalyzer-10
+   MDC:{frontend=JavaFrontEnd, msgId=1450, pass=Processing, prefix=[warning]: , severity=INFO_VERBOSE, sourceInfo=ListStaff.java, stdout=true, step=SRC_PARSE} NDC:[]
+[2019-02-26 20:21:13.394 INFO  1450]
+Processing /Users/zacharylewis/Desktop/fodjavauploaddemo/WebGoat5.0/JavaSource/org/owasp/webgoat/lessons/SQLInjection/Login.java
+   logger:com.fortify.sca.frontend.JavaFrontEnd marker:USER thread:sourceanalyzer-10
+   MDC:{frontend=JavaFrontEnd, msgId=1450, pass=Processing, prefix=[warning]: , severity=INFO_VERBOSE, sourceInfo=Login.java, stdout=true, step=SRC_PARSE} NDC:[]
+[2019-02-26 20:21:13.406 INFO  1450]
+Processing /Users/zacharylewis/Desktop/fodjavauploaddemo/WebGoat5.0/JavaSource/org/owasp/webgoat/lessons/SQLInjection/SQLInjection.java
+   logger:com.fortify.sca.frontend.JavaFrontEnd marker:USER thread:sourceanalyzer-10
+   MDC:{frontend=JavaFrontEnd, msgId=1450, pass=Processing, prefix=[warning]: , severity=INFO_VERBOSE, sourceInfo=SQLInjection.java, stdout=true, step=SRC_PARSE} NDC:[]
+[2019-02-26 20:21:13.425 INFO  1450]
+Processing /Users/zacharylewis/Desktop/fodjavauploaddemo/WebGoat5.0/JavaSource/org/owasp/webgoat/lessons/SQLInjection/ViewProfile.java
+   logger:com.fortify.sca.frontend.JavaFrontEnd marker:USER thread:sourceanalyzer-10
+   MDC:{frontend=JavaFrontEnd, msgId=1450, pass=Processing, prefix=[warning]: , severity=INFO_VERBOSE, sourceInfo=ViewProfile.java, stdout=true, step=SRC_PARSE} NDC:[]
+[2019-02-26 20:21:13.436 INFO  1450]
+Processing /Users/zacharylewis/Desktop/fodjavauploaddemo/WebGoat5.0/JavaSource/org/owasp/webgoat/lessons/SilentTransactions.java
+   logger:com.fortify.sca.frontend.JavaFrontEnd marker:USER thread:sourceanalyzer-10
+   MDC:{frontend=JavaFrontEnd, msgId=1450, pass=Processing, prefix=[warning]: , severity=INFO_VERBOSE, sourceInfo=SilentTransactions.java, stdout=true, step=SRC_PARSE} NDC:[]
+[2019-02-26 20:21:13.451 INFO  1450]
+Processing /Users/zacharylewis/Desktop/fodjavauploaddemo/WebGoat5.0/JavaSource/org/owasp/webgoat/lessons/SoapRequest.java
+   logger:com.fortify.sca.frontend.JavaFrontEnd marker:USER thread:sourceanalyzer-10
+   MDC:{frontend=JavaFrontEnd, msgId=1450, pass=Processing, prefix=[warning]: , severity=INFO_VERBOSE, sourceInfo=SoapRequest.java, stdout=true, step=SRC_PARSE} NDC:[]
+[2019-02-26 20:21:13.463 INFO  1450]
+Processing /Users/zacharylewis/Desktop/fodjavauploaddemo/WebGoat5.0/JavaSource/org/owasp/webgoat/lessons/SqlNumericInjection.java
+   logger:com.fortify.sca.frontend.JavaFrontEnd marker:USER thread:sourceanalyzer-10
+   MDC:{frontend=JavaFrontEnd, msgId=1450, pass=Processing, prefix=[warning]: , severity=INFO_VERBOSE, sourceInfo=SqlNumericInjection.java, stdout=true, step=SRC_PARSE} NDC:[]
+[2019-02-26 20:21:13.481 INFO  1450]
+Processing /Users/zacharylewis/Desktop/fodjavauploaddemo/WebGoat5.0/JavaSource/org/owasp/webgoat/lessons/SqlStringInjection.java
+   logger:com.fortify.sca.frontend.JavaFrontEnd marker:USER thread:sourceanalyzer-10
+   MDC:{frontend=JavaFrontEnd, msgId=1450, pass=Processing, prefix=[warning]: , severity=INFO_VERBOSE, sourceInfo=SqlStringInjection.java, stdout=true, step=SRC_PARSE} NDC:[]
+[2019-02-26 20:21:13.496 INFO  1450]
+Processing /Users/zacharylewis/Desktop/fodjavauploaddemo/WebGoat5.0/JavaSource/org/owasp/webgoat/lessons/StoredXss.java
+   logger:com.fortify.sca.frontend.JavaFrontEnd marker:USER thread:sourceanalyzer-10
+   MDC:{frontend=JavaFrontEnd, msgId=1450, pass=Processing, prefix=[warning]: , severity=INFO_VERBOSE, sourceInfo=StoredXss.java, stdout=true, step=SRC_PARSE} NDC:[]
+[2019-02-26 20:21:13.512 INFO  1450]
+Processing /Users/zacharylewis/Desktop/fodjavauploaddemo/WebGoat5.0/JavaSource/org/owasp/webgoat/lessons/ThreadSafetyProblem.java
+   logger:com.fortify.sca.frontend.JavaFrontEnd marker:USER thread:sourceanalyzer-10
+   MDC:{frontend=JavaFrontEnd, msgId=1450, pass=Processing, prefix=[warning]: , severity=INFO_VERBOSE, sourceInfo=ThreadSafetyProblem.java, stdout=true, step=SRC_PARSE} NDC:[]
+[2019-02-26 20:21:13.521 INFO  1450]
+Processing /Users/zacharylewis/Desktop/fodjavauploaddemo/WebGoat5.0/JavaSource/org/owasp/webgoat/lessons/TraceXSS.java
+   logger:com.fortify.sca.frontend.JavaFrontEnd marker:USER thread:sourceanalyzer-10
+   MDC:{frontend=JavaFrontEnd, msgId=1450, pass=Processing, prefix=[warning]: , severity=INFO_VERBOSE, sourceInfo=TraceXSS.java, stdout=true, step=SRC_PARSE} NDC:[]
+[2019-02-26 20:21:13.533 INFO  1450]
+Processing /Users/zacharylewis/Desktop/fodjavauploaddemo/WebGoat5.0/JavaSource/org/owasp/webgoat/lessons/UncheckedEmail.java
+   logger:com.fortify.sca.frontend.JavaFrontEnd marker:USER thread:sourceanalyzer-10
+   MDC:{frontend=JavaFrontEnd, msgId=1450, pass=Processing, prefix=[warning]: , severity=INFO_VERBOSE, sourceInfo=UncheckedEmail.java, stdout=true, step=SRC_PARSE} NDC:[]
+[2019-02-26 20:21:13.546 INFO  1450]
+Processing /Users/zacharylewis/Desktop/fodjavauploaddemo/WebGoat5.0/JavaSource/org/owasp/webgoat/lessons/WSDLScanning.java
+   logger:com.fortify.sca.frontend.JavaFrontEnd marker:USER thread:sourceanalyzer-10
+   MDC:{frontend=JavaFrontEnd, msgId=1450, pass=Processing, prefix=[warning]: , severity=INFO_VERBOSE, sourceInfo=WSDLScanning.java, stdout=true, step=SRC_PARSE} NDC:[]
+[2019-02-26 20:21:13.562 INFO  1450]
+Processing /Users/zacharylewis/Desktop/fodjavauploaddemo/WebGoat5.0/JavaSource/org/owasp/webgoat/lessons/WeakAuthenticationCookie.java
+   logger:com.fortify.sca.frontend.JavaFrontEnd marker:USER thread:sourceanalyzer-10
+   MDC:{frontend=JavaFrontEnd, msgId=1450, pass=Processing, prefix=[warning]: , severity=INFO_VERBOSE, sourceInfo=WeakAuthenticationCookie.java, stdout=true, step=SRC_PARSE} NDC:[]
+[2019-02-26 20:21:13.576 INFO  1450]
+Processing /Users/zacharylewis/Desktop/fodjavauploaddemo/WebGoat5.0/JavaSource/org/owasp/webgoat/lessons/WeakSessionID.java
+   logger:com.fortify.sca.frontend.JavaFrontEnd marker:USER thread:sourceanalyzer-10
+   MDC:{frontend=JavaFrontEnd, msgId=1450, pass=Processing, prefix=[warning]: , severity=INFO_VERBOSE, sourceInfo=WeakSessionID.java, stdout=true, step=SRC_PARSE} NDC:[]
+[2019-02-26 20:21:13.587 INFO  1450]
+Processing /Users/zacharylewis/Desktop/fodjavauploaddemo/WebGoat5.0/JavaSource/org/owasp/webgoat/lessons/WelcomeScreen.java
+   logger:com.fortify.sca.frontend.JavaFrontEnd marker:USER thread:sourceanalyzer-10
+   MDC:{frontend=JavaFrontEnd, msgId=1450, pass=Processing, prefix=[warning]: , severity=INFO_VERBOSE, sourceInfo=WelcomeScreen.java, stdout=true, step=SRC_PARSE} NDC:[]
+[2019-02-26 20:21:13.593 INFO  1450]
+Processing /Users/zacharylewis/Desktop/fodjavauploaddemo/WebGoat5.0/JavaSource/org/owasp/webgoat/lessons/WsSAXInjection.java
+   logger:com.fortify.sca.frontend.JavaFrontEnd marker:USER thread:sourceanalyzer-10
+   MDC:{frontend=JavaFrontEnd, msgId=1450, pass=Processing, prefix=[warning]: , severity=INFO_VERBOSE, sourceInfo=WsSAXInjection.java, stdout=true, step=SRC_PARSE} NDC:[]
+[2019-02-26 20:21:13.607 INFO  1450]
+Processing /Users/zacharylewis/Desktop/fodjavauploaddemo/WebGoat5.0/JavaSource/org/owasp/webgoat/lessons/WsSqlInjection.java
+   logger:com.fortify.sca.frontend.JavaFrontEnd marker:USER thread:sourceanalyzer-10
+   MDC:{frontend=JavaFrontEnd, msgId=1450, pass=Processing, prefix=[warning]: , severity=INFO_VERBOSE, sourceInfo=WsSqlInjection.java, stdout=true, step=SRC_PARSE} NDC:[]
+[2019-02-26 20:21:13.616 INFO  1450]
+Processing /Users/zacharylewis/Desktop/fodjavauploaddemo/WebGoat5.0/JavaSource/org/owasp/webgoat/lessons/XMLInjection.java
+   logger:com.fortify.sca.frontend.JavaFrontEnd marker:USER thread:sourceanalyzer-10
+   MDC:{frontend=JavaFrontEnd, msgId=1450, pass=Processing, prefix=[warning]: , severity=INFO_VERBOSE, sourceInfo=XMLInjection.java, stdout=true, step=SRC_PARSE} NDC:[]
+[2019-02-26 20:21:13.640 INFO  1450]
+Processing /Users/zacharylewis/Desktop/fodjavauploaddemo/WebGoat5.0/JavaSource/org/owasp/webgoat/lessons/XPATHInjection.java
+   logger:com.fortify.sca.frontend.JavaFrontEnd marker:USER thread:sourceanalyzer-10
+   MDC:{frontend=JavaFrontEnd, msgId=1450, pass=Processing, prefix=[warning]: , severity=INFO_VERBOSE, sourceInfo=XPATHInjection.java, stdout=true, step=SRC_PARSE} NDC:[]
+[2019-02-26 20:21:13.653 INFO  1450]
+Processing /Users/zacharylewis/Desktop/fodjavauploaddemo/WebGoat5.0/JavaSource/org/owasp/webgoat/lessons/admin/AdminScreen.java
+   logger:com.fortify.sca.frontend.JavaFrontEnd marker:USER thread:sourceanalyzer-10
+   MDC:{frontend=JavaFrontEnd, msgId=1450, pass=Processing, prefix=[warning]: , severity=INFO_VERBOSE, sourceInfo=AdminScreen.java, stdout=true, step=SRC_PARSE} NDC:[]
+[2019-02-26 20:21:13.656 INFO  1450]
+Processing /Users/zacharylewis/Desktop/fodjavauploaddemo/WebGoat5.0/JavaSource/org/owasp/webgoat/lessons/admin/ProductsAdminScreen.java
+   logger:com.fortify.sca.frontend.JavaFrontEnd marker:USER thread:sourceanalyzer-10
+   MDC:{frontend=JavaFrontEnd, msgId=1450, pass=Processing, prefix=[warning]: , severity=INFO_VERBOSE, sourceInfo=ProductsAdminScreen.java, stdout=true, step=SRC_PARSE} NDC:[]
+[2019-02-26 20:21:13.660 INFO  1450]
+Processing /Users/zacharylewis/Desktop/fodjavauploaddemo/WebGoat5.0/JavaSource/org/owasp/webgoat/lessons/admin/RefreshDBScreen.java
+   logger:com.fortify.sca.frontend.JavaFrontEnd marker:USER thread:sourceanalyzer-10
+   MDC:{frontend=JavaFrontEnd, msgId=1450, pass=Processing, prefix=[warning]: , severity=INFO_VERBOSE, sourceInfo=RefreshDBScreen.java, stdout=true, step=SRC_PARSE} NDC:[]
+[2019-02-26 20:21:13.666 INFO  1450]
+Processing /Users/zacharylewis/Desktop/fodjavauploaddemo/WebGoat5.0/JavaSource/org/owasp/webgoat/lessons/admin/ReportCardScreen.java
+   logger:com.fortify.sca.frontend.JavaFrontEnd marker:USER thread:sourceanalyzer-10
+   MDC:{frontend=JavaFrontEnd, msgId=1450, pass=Processing, prefix=[warning]: , severity=INFO_VERBOSE, sourceInfo=ReportCardScreen.java, stdout=true, step=SRC_PARSE} NDC:[]
+[2019-02-26 20:21:13.678 INFO  1450]
+Processing /Users/zacharylewis/Desktop/fodjavauploaddemo/WebGoat5.0/JavaSource/org/owasp/webgoat/lessons/admin/SummaryReportCardScreen.java
+   logger:com.fortify.sca.frontend.JavaFrontEnd marker:USER thread:sourceanalyzer-10
+   MDC:{frontend=JavaFrontEnd, msgId=1450, pass=Processing, prefix=[warning]: , severity=INFO_VERBOSE, sourceInfo=SummaryReportCardScreen.java, stdout=true, step=SRC_PARSE} NDC:[]
+[2019-02-26 20:21:13.691 INFO  1450]
+Processing /Users/zacharylewis/Desktop/fodjavauploaddemo/WebGoat5.0/JavaSource/org/owasp/webgoat/lessons/admin/UserAdminScreen.java
+   logger:com.fortify.sca.frontend.JavaFrontEnd marker:USER thread:sourceanalyzer-10
+   MDC:{frontend=JavaFrontEnd, msgId=1450, pass=Processing, prefix=[warning]: , severity=INFO_VERBOSE, sourceInfo=UserAdminScreen.java, stdout=true, step=SRC_PARSE} NDC:[]
+[2019-02-26 20:21:13.695 INFO  1450]
+Processing /Users/zacharylewis/Desktop/fodjavauploaddemo/WebGoat5.0/JavaSource/org/owasp/webgoat/lessons/admin/ViewDatabase.java
+   logger:com.fortify.sca.frontend.JavaFrontEnd marker:USER thread:sourceanalyzer-10
+   MDC:{frontend=JavaFrontEnd, msgId=1450, pass=Processing, prefix=[warning]: , severity=INFO_VERBOSE, sourceInfo=ViewDatabase.java, stdout=true, step=SRC_PARSE} NDC:[]
+[2019-02-26 20:21:13.704 INFO  1450]
+Processing /Users/zacharylewis/Desktop/fodjavauploaddemo/WebGoat5.0/JavaSource/org/owasp/webgoat/lessons/admin/WelcomeAdminScreen.java
+   logger:com.fortify.sca.frontend.JavaFrontEnd marker:USER thread:sourceanalyzer-10
+   MDC:{frontend=JavaFrontEnd, msgId=1450, pass=Processing, prefix=[warning]: , severity=INFO_VERBOSE, sourceInfo=WelcomeAdminScreen.java, stdout=true, step=SRC_PARSE} NDC:[]
+[2019-02-26 20:21:13.707 INFO  1450]
+Processing /Users/zacharylewis/Desktop/fodjavauploaddemo/WebGoat5.0/JavaSource/org/owasp/webgoat/servlets/Controller.java
+   logger:com.fortify.sca.frontend.JavaFrontEnd marker:USER thread:sourceanalyzer-10
+   MDC:{frontend=JavaFrontEnd, msgId=1450, pass=Processing, prefix=[warning]: , severity=INFO_VERBOSE, sourceInfo=Controller.java, stdout=true, step=SRC_PARSE} NDC:[]
+[2019-02-26 20:21:13.711 INFO  1450]
+Processing /Users/zacharylewis/Desktop/fodjavauploaddemo/WebGoat5.0/JavaSource/org/owasp/webgoat/session/Authorization.java
+   logger:com.fortify.sca.frontend.JavaFrontEnd marker:USER thread:sourceanalyzer-10
+   MDC:{frontend=JavaFrontEnd, msgId=1450, pass=Processing, prefix=[warning]: , severity=INFO_VERBOSE, sourceInfo=Authorization.java, stdout=true, step=SRC_PARSE} NDC:[]
+[2019-02-26 20:21:13.714 INFO  1450]
+Processing /Users/zacharylewis/Desktop/fodjavauploaddemo/WebGoat5.0/JavaSource/org/owasp/webgoat/session/Course.java
+   logger:com.fortify.sca.frontend.JavaFrontEnd marker:USER thread:sourceanalyzer-10
+   MDC:{frontend=JavaFrontEnd, msgId=1450, pass=Processing, prefix=[warning]: , severity=INFO_VERBOSE, sourceInfo=Course.java, stdout=true, step=SRC_PARSE} NDC:[]
+[2019-02-26 20:21:13.734 INFO  1450]
+Processing /Users/zacharylewis/Desktop/fodjavauploaddemo/WebGoat5.0/JavaSource/org/owasp/webgoat/session/CreateDB.java
+   logger:com.fortify.sca.frontend.JavaFrontEnd marker:USER thread:sourceanalyzer-10
+   MDC:{frontend=JavaFrontEnd, msgId=1450, pass=Processing, prefix=[warning]: , severity=INFO_VERBOSE, sourceInfo=CreateDB.java, stdout=true, step=SRC_PARSE} NDC:[]
+[2019-02-26 20:21:13.771 INFO  1450]
+Processing /Users/zacharylewis/Desktop/fodjavauploaddemo/WebGoat5.0/JavaSource/org/owasp/webgoat/session/DatabaseUtilities.java
+   logger:com.fortify.sca.frontend.JavaFrontEnd marker:USER thread:sourceanalyzer-10
+   MDC:{frontend=JavaFrontEnd, msgId=1450, pass=Processing, prefix=[warning]: , severity=INFO_VERBOSE, sourceInfo=DatabaseUtilities.java, stdout=true, step=SRC_PARSE} NDC:[]
+[2019-02-26 20:21:13.777 INFO  1450]
+Processing /Users/zacharylewis/Desktop/fodjavauploaddemo/WebGoat5.0/JavaSource/org/owasp/webgoat/session/ECSFactory.java
+   logger:com.fortify.sca.frontend.JavaFrontEnd marker:USER thread:sourceanalyzer-10
+   MDC:{frontend=JavaFrontEnd, msgId=1450, pass=Processing, prefix=[warning]: , severity=INFO_VERBOSE, sourceInfo=ECSFactory.java, stdout=true, step=SRC_PARSE} NDC:[]
+[2019-02-26 20:21:13.793 INFO  1450]
+Processing /Users/zacharylewis/Desktop/fodjavauploaddemo/WebGoat5.0/JavaSource/org/owasp/webgoat/session/Employee.java
+   logger:com.fortify.sca.frontend.JavaFrontEnd marker:USER thread:sourceanalyzer-10
+   MDC:{frontend=JavaFrontEnd, msgId=1450, pass=Processing, prefix=[warning]: , severity=INFO_VERBOSE, sourceInfo=Employee.java, stdout=true, step=SRC_PARSE} NDC:[]
+[2019-02-26 20:21:13.802 INFO  1450]
+Processing /Users/zacharylewis/Desktop/fodjavauploaddemo/WebGoat5.0/JavaSource/org/owasp/webgoat/session/EmployeeStub.java
+   logger:com.fortify.sca.frontend.JavaFrontEnd marker:USER thread:sourceanalyzer-10
+   MDC:{frontend=JavaFrontEnd, msgId=1450, pass=Processing, prefix=[warning]: , severity=INFO_VERBOSE, sourceInfo=EmployeeStub.java, stdout=true, step=SRC_PARSE} NDC:[]
+[2019-02-26 20:21:13.806 INFO  1450]
+Processing /Users/zacharylewis/Desktop/fodjavauploaddemo/WebGoat5.0/JavaSource/org/owasp/webgoat/session/ErrorScreen.java
+   logger:com.fortify.sca.frontend.JavaFrontEnd marker:USER thread:sourceanalyzer-10
+   MDC:{frontend=JavaFrontEnd, msgId=1450, pass=Processing, prefix=[warning]: , severity=INFO_VERBOSE, sourceInfo=ErrorScreen.java, stdout=true, step=SRC_PARSE} NDC:[]
+[2019-02-26 20:21:13.815 INFO  1450]
+Processing /Users/zacharylewis/Desktop/fodjavauploaddemo/WebGoat5.0/JavaSource/org/owasp/webgoat/session/LessonSession.java
+   logger:com.fortify.sca.frontend.JavaFrontEnd marker:USER thread:sourceanalyzer-10
+   MDC:{frontend=JavaFrontEnd, msgId=1450, pass=Processing, prefix=[warning]: , severity=INFO_VERBOSE, sourceInfo=LessonSession.java, stdout=true, step=SRC_PARSE} NDC:[]
+[2019-02-26 20:21:13.821 INFO  1450]
+Processing /Users/zacharylewis/Desktop/fodjavauploaddemo/WebGoat5.0/JavaSource/org/owasp/webgoat/session/LessonTracker.java
+   logger:com.fortify.sca.frontend.JavaFrontEnd marker:USER thread:sourceanalyzer-10
+   MDC:{frontend=JavaFrontEnd, msgId=1450, pass=Processing, prefix=[warning]: , severity=INFO_VERBOSE, sourceInfo=LessonTracker.java, stdout=true, step=SRC_PARSE} NDC:[]
+[2019-02-26 20:21:13.838 INFO  1450]
+Processing /Users/zacharylewis/Desktop/fodjavauploaddemo/WebGoat5.0/JavaSource/org/owasp/webgoat/session/Parameter.java
+   logger:com.fortify.sca.frontend.JavaFrontEnd marker:USER thread:sourceanalyzer-10
+   MDC:{frontend=JavaFrontEnd, msgId=1450, pass=Processing, prefix=[warning]: , severity=INFO_VERBOSE, sourceInfo=Parameter.java, stdout=true, step=SRC_PARSE} NDC:[]
+[2019-02-26 20:21:13.841 INFO  1450]
+Processing /Users/zacharylewis/Desktop/fodjavauploaddemo/WebGoat5.0/JavaSource/org/owasp/webgoat/session/ParameterNotFoundException.java
+   logger:com.fortify.sca.frontend.JavaFrontEnd marker:USER thread:sourceanalyzer-10
+   MDC:{frontend=JavaFrontEnd, msgId=1450, pass=Processing, prefix=[warning]: , severity=INFO_VERBOSE, sourceInfo=ParameterNotFoundException.java, stdout=true, step=SRC_PARSE} NDC:[]
+[2019-02-26 20:21:13.843 INFO  1450]
+Processing /Users/zacharylewis/Desktop/fodjavauploaddemo/WebGoat5.0/JavaSource/org/owasp/webgoat/session/ParameterParser.java
+   logger:com.fortify.sca.frontend.JavaFrontEnd marker:USER thread:sourceanalyzer-10
+   MDC:{frontend=JavaFrontEnd, msgId=1450, pass=Processing, prefix=[warning]: , severity=INFO_VERBOSE, sourceInfo=ParameterParser.java, stdout=true, step=SRC_PARSE} NDC:[]
+[2019-02-26 20:21:13.869 INFO  1450]
+Processing /Users/zacharylewis/Desktop/fodjavauploaddemo/WebGoat5.0/JavaSource/org/owasp/webgoat/session/Screen.java
+   logger:com.fortify.sca.frontend.JavaFrontEnd marker:USER thread:sourceanalyzer-10
+   MDC:{frontend=JavaFrontEnd, msgId=1450, pass=Processing, prefix=[warning]: , severity=INFO_VERBOSE, sourceInfo=Screen.java, stdout=true, step=SRC_PARSE} NDC:[]
+[2019-02-26 20:21:13.875 INFO  1450]
+Processing /Users/zacharylewis/Desktop/fodjavauploaddemo/WebGoat5.0/JavaSource/org/owasp/webgoat/session/UnauthenticatedException.java
+   logger:com.fortify.sca.frontend.JavaFrontEnd marker:USER thread:sourceanalyzer-10
+   MDC:{frontend=JavaFrontEnd, msgId=1450, pass=Processing, prefix=[warning]: , severity=INFO_VERBOSE, sourceInfo=UnauthenticatedException.java, stdout=true, step=SRC_PARSE} NDC:[]
+[2019-02-26 20:21:13.876 INFO  1450]
+Processing /Users/zacharylewis/Desktop/fodjavauploaddemo/WebGoat5.0/JavaSource/org/owasp/webgoat/session/UnauthorizedException.java
+   logger:com.fortify.sca.frontend.JavaFrontEnd marker:USER thread:sourceanalyzer-10
+   MDC:{frontend=JavaFrontEnd, msgId=1450, pass=Processing, prefix=[warning]: , severity=INFO_VERBOSE, sourceInfo=UnauthorizedException.java, stdout=true, step=SRC_PARSE} NDC:[]
+[2019-02-26 20:21:13.877 INFO  1450]
+Processing /Users/zacharylewis/Desktop/fodjavauploaddemo/WebGoat5.0/JavaSource/org/owasp/webgoat/session/UserTracker.java
+   logger:com.fortify.sca.frontend.JavaFrontEnd marker:USER thread:sourceanalyzer-10
+   MDC:{frontend=JavaFrontEnd, msgId=1450, pass=Processing, prefix=[warning]: , severity=INFO_VERBOSE, sourceInfo=UserTracker.java, stdout=true, step=SRC_PARSE} NDC:[]
+[2019-02-26 20:21:13.886 INFO  1450]
+Processing /Users/zacharylewis/Desktop/fodjavauploaddemo/WebGoat5.0/JavaSource/org/owasp/webgoat/session/ValidationException.java
+   logger:com.fortify.sca.frontend.JavaFrontEnd marker:USER thread:sourceanalyzer-10
+   MDC:{frontend=JavaFrontEnd, msgId=1450, pass=Processing, prefix=[warning]: , severity=INFO_VERBOSE, sourceInfo=ValidationException.java, stdout=true, step=SRC_PARSE} NDC:[]
+[2019-02-26 20:21:13.888 INFO  1450]
+Processing /Users/zacharylewis/Desktop/fodjavauploaddemo/WebGoat5.0/JavaSource/org/owasp/webgoat/session/WebSession.java
+   logger:com.fortify.sca.frontend.JavaFrontEnd marker:USER thread:sourceanalyzer-10
+   MDC:{frontend=JavaFrontEnd, msgId=1450, pass=Processing, prefix=[warning]: , severity=INFO_VERBOSE, sourceInfo=WebSession.java, stdout=true, step=SRC_PARSE} NDC:[]
+[2019-02-26 20:21:13.920 INFO  1450]
+Processing /Users/zacharylewis/Desktop/fodjavauploaddemo/WebGoat5.0/JavaSource/org/owasp/webgoat/session/WebgoatProperties.java
+   logger:com.fortify.sca.frontend.JavaFrontEnd marker:USER thread:sourceanalyzer-10
+   MDC:{frontend=JavaFrontEnd, msgId=1450, pass=Processing, prefix=[warning]: , severity=INFO_VERBOSE, sourceInfo=WebgoatProperties.java, stdout=true, step=SRC_PARSE} NDC:[]
+[2019-02-26 20:21:13.925 INFO  1450]
+Processing /Users/zacharylewis/Desktop/fodjavauploaddemo/WebGoat5.0/JavaSource/org/owasp/webgoat/util/Exec.java
+   logger:com.fortify.sca.frontend.JavaFrontEnd marker:USER thread:sourceanalyzer-10
+   MDC:{frontend=JavaFrontEnd, msgId=1450, pass=Processing, prefix=[warning]: , severity=INFO_VERBOSE, sourceInfo=Exec.java, stdout=true, step=SRC_PARSE} NDC:[]
+[2019-02-26 20:21:13.947 INFO  1450]
+Processing /Users/zacharylewis/Desktop/fodjavauploaddemo/WebGoat5.0/JavaSource/org/owasp/webgoat/util/ExecResults.java
+   logger:com.fortify.sca.frontend.JavaFrontEnd marker:USER thread:sourceanalyzer-10
+   MDC:{frontend=JavaFrontEnd, msgId=1450, pass=Processing, prefix=[warning]: , severity=INFO_VERBOSE, sourceInfo=ExecResults.java, stdout=true, step=SRC_PARSE} NDC:[]
+[2019-02-26 20:21:13.955 INFO  1450]
+Processing /Users/zacharylewis/Desktop/fodjavauploaddemo/WebGoat5.0/JavaSource/org/owasp/webgoat/util/ExecutionException.java
+   logger:com.fortify.sca.frontend.JavaFrontEnd marker:USER thread:sourceanalyzer-10
+   MDC:{frontend=JavaFrontEnd, msgId=1450, pass=Processing, prefix=[warning]: , severity=INFO_VERBOSE, sourceInfo=ExecutionException.java, stdout=true, step=SRC_PARSE} NDC:[]
+[2019-02-26 20:21:13.957 INFO  1450]
+Processing /Users/zacharylewis/Desktop/fodjavauploaddemo/WebGoat5.0/JavaSource/org/owasp/webgoat/util/HtmlEncoder.java
+   logger:com.fortify.sca.frontend.JavaFrontEnd marker:USER thread:sourceanalyzer-10
+   MDC:{frontend=JavaFrontEnd, msgId=1450, pass=Processing, prefix=[warning]: , severity=INFO_VERBOSE, sourceInfo=HtmlEncoder.java, stdout=true, step=SRC_PARSE} NDC:[]
+[2019-02-26 20:21:13.977 INFO  1450]
+Processing /Users/zacharylewis/Desktop/fodjavauploaddemo/WebGoat5.0/JavaSource/org/owasp/webgoat/util/Interceptor.java
+   logger:com.fortify.sca.frontend.JavaFrontEnd marker:USER thread:sourceanalyzer-10
+   MDC:{frontend=JavaFrontEnd, msgId=1450, pass=Processing, prefix=[warning]: , severity=INFO_VERBOSE, sourceInfo=Interceptor.java, stdout=true, step=SRC_PARSE} NDC:[]
+[2019-02-26 20:21:13.985 INFO  1450]
+Processing /Users/zacharylewis/Desktop/fodjavauploaddemo/WebGoat5.0/JavaSource/org/owasp/webgoat/util/ThreadWatcher.java
+   logger:com.fortify.sca.frontend.JavaFrontEnd marker:USER thread:sourceanalyzer-10
+   MDC:{frontend=JavaFrontEnd, msgId=1450, pass=Processing, prefix=[warning]: , severity=INFO_VERBOSE, sourceInfo=ThreadWatcher.java, stdout=true, step=SRC_PARSE} NDC:[]
+[2019-02-26 20:21:21.143 INFO  ]
+Translating 27 jsp files
+   logger:com.fortify.sca.frontend.JavaFrontEnd marker:DEV thread:sourceanalyzer-10
+   MDC:{frontend=JavaFrontEnd, msgId=-1, prefix=[warning]: , severity=LOG_STATUS, step=SRC_PARSE} NDC:[]
+[2019-02-26 20:21:21.199 INFO  1450]
+Processing /Users/zacharylewis/Desktop/fodjavauploaddemo/WebGoat5.0/WebContent/lessons/CrossSiteScripting/SearchStaff.jsp
+   logger:com.fortify.frontend.parser.newjsp2.NewJspFrontEnd marker:USER thread:sourceanalyzer-10
+   MDC:{frontend=JavaFrontEnd, msgId=1450, pass=Processing, prefix=[warning]: , severity=INFO_VERBOSE, sourceInfo=SearchStaff.jsp, stdout=true, step=SRC_PARSE, webapp=/Users/zacharylewis/Desktop/fodjavauploaddemo/WebGoat5.0/WebContent} NDC:[]
+[2019-02-26 20:21:21.218 INFO  1450]
+Processing /Users/zacharylewis/Desktop/fodjavauploaddemo/WebGoat5.0/WebContent/lessons/RoleBasedAccessControl/error.jsp
+   logger:com.fortify.frontend.parser.newjsp2.NewJspFrontEnd marker:USER thread:sourceanalyzer-10
+   MDC:{frontend=JavaFrontEnd, msgId=1450, pass=Processing, prefix=[warning]: , severity=INFO_VERBOSE, sourceInfo=error.jsp, stdout=true, step=SRC_PARSE, webapp=/Users/zacharylewis/Desktop/fodjavauploaddemo/WebGoat5.0/WebContent} NDC:[]
+[2019-02-26 20:21:21.222 INFO  1450]
+Processing /Users/zacharylewis/Desktop/fodjavauploaddemo/WebGoat5.0/WebContent/lessons/SQLInjection/Login.jsp
+   logger:com.fortify.frontend.parser.newjsp2.NewJspFrontEnd marker:USER thread:sourceanalyzer-10
+   MDC:{frontend=JavaFrontEnd, msgId=1450, pass=Processing, prefix=[warning]: , severity=INFO_VERBOSE, sourceInfo=Login.jsp, stdout=true, step=SRC_PARSE, webapp=/Users/zacharylewis/Desktop/fodjavauploaddemo/WebGoat5.0/WebContent} NDC:[]
+[2019-02-26 20:21:21.228 INFO  1450]
+Processing /Users/zacharylewis/Desktop/fodjavauploaddemo/WebGoat5.0/WebContent/lessons/SQLInjection/ListStaff.jsp
+   logger:com.fortify.frontend.parser.newjsp2.NewJspFrontEnd marker:USER thread:sourceanalyzer-10
+   MDC:{frontend=JavaFrontEnd, msgId=1450, pass=Processing, prefix=[warning]: , severity=INFO_VERBOSE, sourceInfo=ListStaff.jsp, stdout=true, step=SRC_PARSE, webapp=/Users/zacharylewis/Desktop/fodjavauploaddemo/WebGoat5.0/WebContent} NDC:[]
+[2019-02-26 20:21:21.238 INFO  1450]
+Processing /Users/zacharylewis/Desktop/fodjavauploaddemo/WebGoat5.0/WebContent/lessons/SQLInjection/SQLInjection.jsp
+   logger:com.fortify.frontend.parser.newjsp2.NewJspFrontEnd marker:USER thread:sourceanalyzer-10
+   MDC:{frontend=JavaFrontEnd, msgId=1450, pass=Processing, prefix=[warning]: , severity=INFO_VERBOSE, sourceInfo=SQLInjection.jsp, stdout=true, step=SRC_PARSE, webapp=/Users/zacharylewis/Desktop/fodjavauploaddemo/WebGoat5.0/WebContent} NDC:[]
+[2019-02-26 20:21:21.256 INFO  1450]
+Processing /Users/zacharylewis/Desktop/fodjavauploaddemo/WebGoat5.0/WebContent/lessons/SQLInjection/SearchStaff.jsp
+   logger:com.fortify.frontend.parser.newjsp2.NewJspFrontEnd marker:USER thread:sourceanalyzer-10
+   MDC:{frontend=JavaFrontEnd, msgId=1450, pass=Processing, prefix=[warning]: , severity=INFO_VERBOSE, sourceInfo=SearchStaff.jsp, stdout=true, step=SRC_PARSE, webapp=/Users/zacharylewis/Desktop/fodjavauploaddemo/WebGoat5.0/WebContent} NDC:[]
+[2019-02-26 20:21:21.260 INFO  1450]
+Processing /Users/zacharylewis/Desktop/fodjavauploaddemo/WebGoat5.0/WebContent/lessons/CrossSiteScripting/ViewProfile.jsp
+   logger:com.fortify.frontend.parser.newjsp2.NewJspFrontEnd marker:USER thread:sourceanalyzer-10
+   MDC:{frontend=JavaFrontEnd, msgId=1450, pass=Processing, prefix=[warning]: , severity=INFO_VERBOSE, sourceInfo=ViewProfile.jsp, stdout=true, step=SRC_PARSE, webapp=/Users/zacharylewis/Desktop/fodjavauploaddemo/WebGoat5.0/WebContent} NDC:[]
+[2019-02-26 20:21:21.273 INFO  1450]
+Processing /Users/zacharylewis/Desktop/fodjavauploaddemo/WebGoat5.0/WebContent/lessons/RoleBasedAccessControl/RoleBasedAccessControl.jsp
+   logger:com.fortify.frontend.parser.newjsp2.NewJspFrontEnd marker:USER thread:sourceanalyzer-10
+   MDC:{frontend=JavaFrontEnd, msgId=1450, pass=Processing, prefix=[warning]: , severity=INFO_VERBOSE, sourceInfo=RoleBasedAccessControl.jsp, stdout=true, step=SRC_PARSE, webapp=/Users/zacharylewis/Desktop/fodjavauploaddemo/WebGoat5.0/WebContent} NDC:[]
+[2019-02-26 20:21:21.276 INFO  1450]
+Processing /Users/zacharylewis/Desktop/fodjavauploaddemo/WebGoat5.0/WebContent/lessons/CrossSiteScripting/Login.jsp
+   logger:com.fortify.frontend.parser.newjsp2.NewJspFrontEnd marker:USER thread:sourceanalyzer-10
+   MDC:{frontend=JavaFrontEnd, msgId=1450, pass=Processing, prefix=[warning]: , severity=INFO_VERBOSE, sourceInfo=Login.jsp, stdout=true, step=SRC_PARSE, webapp=/Users/zacharylewis/Desktop/fodjavauploaddemo/WebGoat5.0/WebContent} NDC:[]
+[2019-02-26 20:21:21.280 INFO  1450]
+Processing /Users/zacharylewis/Desktop/fodjavauploaddemo/WebGoat5.0/WebContent/lessons/SQLInjection/EditProfile.jsp
+   logger:com.fortify.frontend.parser.newjsp2.NewJspFrontEnd marker:USER thread:sourceanalyzer-10
+   MDC:{frontend=JavaFrontEnd, msgId=1450, pass=Processing, prefix=[warning]: , severity=INFO_VERBOSE, sourceInfo=EditProfile.jsp, stdout=true, step=SRC_PARSE, webapp=/Users/zacharylewis/Desktop/fodjavauploaddemo/WebGoat5.0/WebContent} NDC:[]
+[2019-02-26 20:21:21.293 INFO  1450]
+Processing /Users/zacharylewis/Desktop/fodjavauploaddemo/WebGoat5.0/WebContent/lessons/CrossSiteScripting/error.jsp
+   logger:com.fortify.frontend.parser.newjsp2.NewJspFrontEnd marker:USER thread:sourceanalyzer-10
+   MDC:{frontend=JavaFrontEnd, msgId=1450, pass=Processing, prefix=[warning]: , severity=INFO_VERBOSE, sourceInfo=error.jsp, stdout=true, step=SRC_PARSE, webapp=/Users/zacharylewis/Desktop/fodjavauploaddemo/WebGoat5.0/WebContent} NDC:[]
+[2019-02-26 20:21:21.295 INFO  1450]
+Processing /Users/zacharylewis/Desktop/fodjavauploaddemo/WebGoat5.0/WebContent/webgoat_challenge.jsp
+   logger:com.fortify.frontend.parser.newjsp2.NewJspFrontEnd marker:USER thread:sourceanalyzer-10
+   MDC:{frontend=JavaFrontEnd, msgId=1450, pass=Processing, prefix=[warning]: , severity=INFO_VERBOSE, sourceInfo=webgoat_challenge.jsp, stdout=true, step=SRC_PARSE, webapp=/Users/zacharylewis/Desktop/fodjavauploaddemo/WebGoat5.0/WebContent} NDC:[]
+[2019-02-26 20:21:21.304 INFO  1450]
+Processing /Users/zacharylewis/Desktop/fodjavauploaddemo/WebGoat5.0/WebContent/lessons/RoleBasedAccessControl/ViewProfile.jsp
+   logger:com.fortify.frontend.parser.newjsp2.NewJspFrontEnd marker:USER thread:sourceanalyzer-10
+   MDC:{frontend=JavaFrontEnd, msgId=1450, pass=Processing, prefix=[warning]: , severity=INFO_VERBOSE, sourceInfo=ViewProfile.jsp, stdout=true, step=SRC_PARSE, webapp=/Users/zacharylewis/Desktop/fodjavauploaddemo/WebGoat5.0/WebContent} NDC:[]
+[2019-02-26 20:21:21.312 INFO  1450]
+Processing /Users/zacharylewis/Desktop/fodjavauploaddemo/WebGoat5.0/WebContent/lessons/RoleBasedAccessControl/Login.jsp
+   logger:com.fortify.frontend.parser.newjsp2.NewJspFrontEnd marker:USER thread:sourceanalyzer-10
+   MDC:{frontend=JavaFrontEnd, msgId=1450, pass=Processing, prefix=[warning]: , severity=INFO_VERBOSE, sourceInfo=Login.jsp, stdout=true, step=SRC_PARSE, webapp=/Users/zacharylewis/Desktop/fodjavauploaddemo/WebGoat5.0/WebContent} NDC:[]
+[2019-02-26 20:21:21.315 INFO  1450]
+Processing /Users/zacharylewis/Desktop/fodjavauploaddemo/WebGoat5.0/WebContent/lessons/General/redirect.jsp
+   logger:com.fortify.frontend.parser.newjsp2.NewJspFrontEnd marker:USER thread:sourceanalyzer-10
+   MDC:{frontend=JavaFrontEnd, msgId=1450, pass=Processing, prefix=[warning]: , severity=INFO_VERBOSE, sourceInfo=redirect.jsp, stdout=true, step=SRC_PARSE, webapp=/Users/zacharylewis/Desktop/fodjavauploaddemo/WebGoat5.0/WebContent} NDC:[]
+[2019-02-26 20:21:21.318 INFO  1450]
+Processing /Users/zacharylewis/Desktop/fodjavauploaddemo/WebGoat5.0/WebContent/lessons/SQLInjection/error.jsp
+   logger:com.fortify.frontend.parser.newjsp2.NewJspFrontEnd marker:USER thread:sourceanalyzer-10
+   MDC:{frontend=JavaFrontEnd, msgId=1450, pass=Processing, prefix=[warning]: , severity=INFO_VERBOSE, sourceInfo=error.jsp, stdout=true, step=SRC_PARSE, webapp=/Users/zacharylewis/Desktop/fodjavauploaddemo/WebGoat5.0/WebContent} NDC:[]
+[2019-02-26 20:21:21.319 INFO  1450]
+Processing /Users/zacharylewis/Desktop/fodjavauploaddemo/WebGoat5.0/WebContent/lessons/CrossSiteScripting/EditProfile.jsp
+   logger:com.fortify.frontend.parser.newjsp2.NewJspFrontEnd marker:USER thread:sourceanalyzer-10
+   MDC:{frontend=JavaFrontEnd, msgId=1450, pass=Processing, prefix=[warning]: , severity=INFO_VERBOSE, sourceInfo=EditProfile.jsp, stdout=true, step=SRC_PARSE, webapp=/Users/zacharylewis/Desktop/fodjavauploaddemo/WebGoat5.0/WebContent} NDC:[]
+[2019-02-26 20:21:21.326 INFO  1450]
+Processing /Users/zacharylewis/Desktop/fodjavauploaddemo/WebGoat5.0/WebContent/main.jsp
+   logger:com.fortify.frontend.parser.newjsp2.NewJspFrontEnd marker:USER thread:sourceanalyzer-10
+   MDC:{frontend=JavaFrontEnd, msgId=1450, pass=Processing, prefix=[warning]: , severity=INFO_VERBOSE, sourceInfo=main.jsp, stdout=true, step=SRC_PARSE, webapp=/Users/zacharylewis/Desktop/fodjavauploaddemo/WebGoat5.0/WebContent} NDC:[]
+[2019-02-26 20:21:21.338 INFO  1450]
+Processing /Users/zacharylewis/Desktop/fodjavauploaddemo/WebGoat5.0/WebContent/lessons/RoleBasedAccessControl/ListStaff.jsp
+   logger:com.fortify.frontend.parser.newjsp2.NewJspFrontEnd marker:USER thread:sourceanalyzer-10
+   MDC:{frontend=JavaFrontEnd, msgId=1450, pass=Processing, prefix=[warning]: , severity=INFO_VERBOSE, sourceInfo=ListStaff.jsp, stdout=true, step=SRC_PARSE, webapp=/Users/zacharylewis/Desktop/fodjavauploaddemo/WebGoat5.0/WebContent} NDC:[]
+[2019-02-26 20:21:21.341 INFO  1450]
+Processing /Users/zacharylewis/Desktop/fodjavauploaddemo/WebGoat5.0/WebContent/lessons/RoleBasedAccessControl/SearchStaff.jsp
+   logger:com.fortify.frontend.parser.newjsp2.NewJspFrontEnd marker:USER thread:sourceanalyzer-10
+   MDC:{frontend=JavaFrontEnd, msgId=1450, pass=Processing, prefix=[warning]: , severity=INFO_VERBOSE, sourceInfo=SearchStaff.jsp, stdout=true, step=SRC_PARSE, webapp=/Users/zacharylewis/Desktop/fodjavauploaddemo/WebGoat5.0/WebContent} NDC:[]
+[2019-02-26 20:21:21.344 INFO  1450]
+Processing /Users/zacharylewis/Desktop/fodjavauploaddemo/WebGoat5.0/WebContent/lessons/CrossSiteScripting/CrossSiteScripting.jsp
+   logger:com.fortify.frontend.parser.newjsp2.NewJspFrontEnd marker:USER thread:sourceanalyzer-10
+   MDC:{frontend=JavaFrontEnd, msgId=1450, pass=Processing, prefix=[warning]: , severity=INFO_VERBOSE, sourceInfo=CrossSiteScripting.jsp, stdout=true, step=SRC_PARSE, webapp=/Users/zacharylewis/Desktop/fodjavauploaddemo/WebGoat5.0/WebContent} NDC:[]
+[2019-02-26 20:21:21.355 INFO  1450]
+Processing /Users/zacharylewis/Desktop/fodjavauploaddemo/WebGoat5.0/WebContent/lessons/RoleBasedAccessControl/EditProfile.jsp
+   logger:com.fortify.frontend.parser.newjsp2.NewJspFrontEnd marker:USER thread:sourceanalyzer-10
+   MDC:{frontend=JavaFrontEnd, msgId=1450, pass=Processing, prefix=[warning]: , severity=INFO_VERBOSE, sourceInfo=EditProfile.jsp, stdout=true, step=SRC_PARSE, webapp=/Users/zacharylewis/Desktop/fodjavauploaddemo/WebGoat5.0/WebContent} NDC:[]
+[2019-02-26 20:21:21.362 INFO  1450]
+Processing /Users/zacharylewis/Desktop/fodjavauploaddemo/WebGoat5.0/WebContent/lessons/SQLInjection/ViewProfile.jsp
+   logger:com.fortify.frontend.parser.newjsp2.NewJspFrontEnd marker:USER thread:sourceanalyzer-10
+   MDC:{frontend=JavaFrontEnd, msgId=1450, pass=Processing, prefix=[warning]: , severity=INFO_VERBOSE, sourceInfo=ViewProfile.jsp, stdout=true, step=SRC_PARSE, webapp=/Users/zacharylewis/Desktop/fodjavauploaddemo/WebGoat5.0/WebContent} NDC:[]
+[2019-02-26 20:21:21.368 INFO  1450]
+Processing /Users/zacharylewis/Desktop/fodjavauploaddemo/WebGoat5.0/WebContent/lessons/CrossSiteScripting/ListStaff.jsp
+   logger:com.fortify.frontend.parser.newjsp2.NewJspFrontEnd marker:USER thread:sourceanalyzer-10
+   MDC:{frontend=JavaFrontEnd, msgId=1450, pass=Processing, prefix=[warning]: , severity=INFO_VERBOSE, sourceInfo=ListStaff.jsp, stdout=true, step=SRC_PARSE, webapp=/Users/zacharylewis/Desktop/fodjavauploaddemo/WebGoat5.0/WebContent} NDC:[]
+[2019-02-26 20:21:21.374 INFO  1450]
+Processing /Users/zacharylewis/Desktop/fodjavauploaddemo/WebGoat5.0/WebContent/lessons/ConfManagement/config.jsp
+   logger:com.fortify.frontend.parser.newjsp2.NewJspFrontEnd marker:USER thread:sourceanalyzer-10
+   MDC:{frontend=JavaFrontEnd, msgId=1450, pass=Processing, prefix=[warning]: , severity=INFO_VERBOSE, sourceInfo=config.jsp, stdout=true, step=SRC_PARSE, webapp=/Users/zacharylewis/Desktop/fodjavauploaddemo/WebGoat5.0/WebContent} NDC:[]
+[2019-02-26 20:21:21.379 INFO  1450]
+Processing /Users/zacharylewis/Desktop/fodjavauploaddemo/WebGoat5.0/WebContent/webgoat.jsp
+   logger:com.fortify.frontend.parser.newjsp2.NewJspFrontEnd marker:USER thread:sourceanalyzer-10
+   MDC:{frontend=JavaFrontEnd, msgId=1450, pass=Processing, prefix=[warning]: , severity=INFO_VERBOSE, sourceInfo=webgoat.jsp, stdout=true, step=SRC_PARSE, webapp=/Users/zacharylewis/Desktop/fodjavauploaddemo/WebGoat5.0/WebContent} NDC:[]
+[2019-02-26 20:21:21.387 INFO  1450]
+Processing /Users/zacharylewis/Desktop/fodjavauploaddemo/WebGoat5.0/WebContent/sideWindow.jsp
+   logger:com.fortify.frontend.parser.newjsp2.NewJspFrontEnd marker:USER thread:sourceanalyzer-10
+   MDC:{frontend=JavaFrontEnd, msgId=1450, pass=Processing, prefix=[warning]: , severity=INFO_VERBOSE, sourceInfo=sideWindow.jsp, stdout=true, step=SRC_PARSE, webapp=/Users/zacharylewis/Desktop/fodjavauploaddemo/WebGoat5.0/WebContent} NDC:[]
+[2019-02-26 20:21:21.390 INFO  1450]
+Processing /Users/zacharylewis/Desktop/fodjavauploaddemo/WebGoat5.0/WebContent/lessons/SQLInjection/error.jsp
+   logger:com.fortify.frontend.parser.newjsp2.NewJspFrontEnd marker:USER thread:sourceanalyzer-10
+   MDC:{frontend=JavaFrontEnd, msgId=1450, pass=Processing, prefix=[warning]: , severity=INFO_VERBOSE, sourceInfo=error.jsp, stdout=true, step=SRC_PARSE, webapp=/Users/zacharylewis/Desktop/fodjavauploaddemo/WebGoat5.0/WebContent} NDC:[]
+[2019-02-26 20:21:21.461 INFO  1450]
+Processing /Users/zacharylewis/Desktop/fodjavauploaddemo/WebGoat5.0/WebContent/lessons/CrossSiteScripting/SearchStaff.jsp
+   logger:com.fortify.frontend.parser.newjsp2.NewJspFrontEnd marker:USER thread:sourceanalyzer-10
+   MDC:{frontend=JavaFrontEnd, msgId=1450, pass=Processing, prefix=[warning]: , severity=INFO_VERBOSE, sourceInfo=SearchStaff.jsp, stdout=true, step=SRC_PARSE, webapp=/Users/zacharylewis/Desktop/fodjavauploaddemo/WebGoat5.0/WebContent} NDC:[]
+[2019-02-26 20:21:21.499 INFO  1450]
+Processing /Users/zacharylewis/Desktop/fodjavauploaddemo/WebGoat5.0/WebContent/webgoat_challenge.jsp
+   logger:com.fortify.frontend.parser.newjsp2.NewJspFrontEnd marker:USER thread:sourceanalyzer-10
+   MDC:{frontend=JavaFrontEnd, msgId=1450, pass=Processing, prefix=[warning]: , severity=INFO_VERBOSE, sourceInfo=webgoat_challenge.jsp, stdout=true, step=SRC_PARSE, webapp=/Users/zacharylewis/Desktop/fodjavauploaddemo/WebGoat5.0/WebContent} NDC:[]
+[2019-02-26 20:21:21.533 INFO  1450]
+Processing /Users/zacharylewis/Desktop/fodjavauploaddemo/WebGoat5.0/WebContent/lessons/RoleBasedAccessControl/Login.jsp
+   logger:com.fortify.frontend.parser.newjsp2.NewJspFrontEnd marker:USER thread:sourceanalyzer-10
+   MDC:{frontend=JavaFrontEnd, msgId=1450, pass=Processing, prefix=[warning]: , severity=INFO_VERBOSE, sourceInfo=Login.jsp, stdout=true, step=SRC_PARSE, webapp=/Users/zacharylewis/Desktop/fodjavauploaddemo/WebGoat5.0/WebContent} NDC:[]
+[2019-02-26 20:21:21.577 INFO  1450]
+Processing /Users/zacharylewis/Desktop/fodjavauploaddemo/WebGoat5.0/WebContent/main.jsp
+   logger:com.fortify.frontend.parser.newjsp2.NewJspFrontEnd marker:USER thread:sourceanalyzer-10
+   MDC:{frontend=JavaFrontEnd, msgId=1450, pass=Processing, prefix=[warning]: , severity=INFO_VERBOSE, sourceInfo=main.jsp, stdout=true, step=SRC_PARSE, webapp=/Users/zacharylewis/Desktop/fodjavauploaddemo/WebGoat5.0/WebContent} NDC:[]
+[2019-02-26 20:21:21.681 INFO  1450]
+Processing /Users/zacharylewis/Desktop/fodjavauploaddemo/WebGoat5.0/WebContent/lessons/ConfManagement/config.jsp
+   logger:com.fortify.frontend.parser.newjsp2.NewJspFrontEnd marker:USER thread:sourceanalyzer-10
+   MDC:{frontend=JavaFrontEnd, msgId=1450, pass=Processing, prefix=[warning]: , severity=INFO_VERBOSE, sourceInfo=config.jsp, stdout=true, step=SRC_PARSE, webapp=/Users/zacharylewis/Desktop/fodjavauploaddemo/WebGoat5.0/WebContent} NDC:[]
+[2019-02-26 20:21:21.709 INFO  1450]
+Processing /Users/zacharylewis/Desktop/fodjavauploaddemo/WebGoat5.0/WebContent/lessons/CrossSiteScripting/ListStaff.jsp
+   logger:com.fortify.frontend.parser.newjsp2.NewJspFrontEnd marker:USER thread:sourceanalyzer-10
+   MDC:{frontend=JavaFrontEnd, msgId=1450, pass=Processing, prefix=[warning]: , severity=INFO_VERBOSE, sourceInfo=ListStaff.jsp, stdout=true, step=SRC_PARSE, webapp=/Users/zacharylewis/Desktop/fodjavauploaddemo/WebGoat5.0/WebContent} NDC:[]
+[2019-02-26 20:21:21.755 INFO  1450]
+Processing /Users/zacharylewis/Desktop/fodjavauploaddemo/WebGoat5.0/WebContent/lessons/SQLInjection/EditProfile.jsp
+   logger:com.fortify.frontend.parser.newjsp2.NewJspFrontEnd marker:USER thread:sourceanalyzer-10
+   MDC:{frontend=JavaFrontEnd, msgId=1450, pass=Processing, prefix=[warning]: , severity=INFO_VERBOSE, sourceInfo=EditProfile.jsp, stdout=true, step=SRC_PARSE, webapp=/Users/zacharylewis/Desktop/fodjavauploaddemo/WebGoat5.0/WebContent} NDC:[]
+[2019-02-26 20:21:21.826 INFO  1450]
+Processing /Users/zacharylewis/Desktop/fodjavauploaddemo/WebGoat5.0/WebContent/lessons/SQLInjection/Login.jsp
+   logger:com.fortify.frontend.parser.newjsp2.NewJspFrontEnd marker:USER thread:sourceanalyzer-10
+   MDC:{frontend=JavaFrontEnd, msgId=1450, pass=Processing, prefix=[warning]: , severity=INFO_VERBOSE, sourceInfo=Login.jsp, stdout=true, step=SRC_PARSE, webapp=/Users/zacharylewis/Desktop/fodjavauploaddemo/WebGoat5.0/WebContent} NDC:[]
+[2019-02-26 20:21:21.869 INFO  1450]
+Processing /Users/zacharylewis/Desktop/fodjavauploaddemo/WebGoat5.0/WebContent/lessons/General/redirect.jsp
+   logger:com.fortify.frontend.parser.newjsp2.NewJspFrontEnd marker:USER thread:sourceanalyzer-10
+   MDC:{frontend=JavaFrontEnd, msgId=1450, pass=Processing, prefix=[warning]: , severity=INFO_VERBOSE, sourceInfo=redirect.jsp, stdout=true, step=SRC_PARSE, webapp=/Users/zacharylewis/Desktop/fodjavauploaddemo/WebGoat5.0/WebContent} NDC:[]
+[2019-02-26 20:21:21.903 INFO  1450]
+Processing /Users/zacharylewis/Desktop/fodjavauploaddemo/WebGoat5.0/WebContent/lessons/CrossSiteScripting/ViewProfile.jsp
+   logger:com.fortify.frontend.parser.newjsp2.NewJspFrontEnd marker:USER thread:sourceanalyzer-10
+   MDC:{frontend=JavaFrontEnd, msgId=1450, pass=Processing, prefix=[warning]: , severity=INFO_VERBOSE, sourceInfo=ViewProfile.jsp, stdout=true, step=SRC_PARSE, webapp=/Users/zacharylewis/Desktop/fodjavauploaddemo/WebGoat5.0/WebContent} NDC:[]
+[2019-02-26 20:21:22.020 INFO  1450]
+Processing /Users/zacharylewis/Desktop/fodjavauploaddemo/WebGoat5.0/WebContent/lessons/RoleBasedAccessControl/EditProfile.jsp
+   logger:com.fortify.frontend.parser.newjsp2.NewJspFrontEnd marker:USER thread:sourceanalyzer-10
+   MDC:{frontend=JavaFrontEnd, msgId=1450, pass=Processing, prefix=[warning]: , severity=INFO_VERBOSE, sourceInfo=EditProfile.jsp, stdout=true, step=SRC_PARSE, webapp=/Users/zacharylewis/Desktop/fodjavauploaddemo/WebGoat5.0/WebContent} NDC:[]
+[2019-02-26 20:21:22.114 INFO  1450]
+Processing /Users/zacharylewis/Desktop/fodjavauploaddemo/WebGoat5.0/WebContent/lessons/RoleBasedAccessControl/RoleBasedAccessControl.jsp
+   logger:com.fortify.frontend.parser.newjsp2.NewJspFrontEnd marker:USER thread:sourceanalyzer-10
+   MDC:{frontend=JavaFrontEnd, msgId=1450, pass=Processing, prefix=[warning]: , severity=INFO_VERBOSE, sourceInfo=RoleBasedAccessControl.jsp, stdout=true, step=SRC_PARSE, webapp=/Users/zacharylewis/Desktop/fodjavauploaddemo/WebGoat5.0/WebContent} NDC:[]
+[2019-02-26 20:21:22.170 INFO  1450]
+Processing /Users/zacharylewis/Desktop/fodjavauploaddemo/WebGoat5.0/WebContent/lessons/RoleBasedAccessControl/error.jsp
+   logger:com.fortify.frontend.parser.newjsp2.NewJspFrontEnd marker:USER thread:sourceanalyzer-10
+   MDC:{frontend=JavaFrontEnd, msgId=1450, pass=Processing, prefix=[warning]: , severity=INFO_VERBOSE, sourceInfo=error.jsp, stdout=true, step=SRC_PARSE, webapp=/Users/zacharylewis/Desktop/fodjavauploaddemo/WebGoat5.0/WebContent} NDC:[]
+[2019-02-26 20:21:22.220 INFO  1450]
+Processing /Users/zacharylewis/Desktop/fodjavauploaddemo/WebGoat5.0/WebContent/lessons/RoleBasedAccessControl/SearchStaff.jsp
+   logger:com.fortify.frontend.parser.newjsp2.NewJspFrontEnd marker:USER thread:sourceanalyzer-10
+   MDC:{frontend=JavaFrontEnd, msgId=1450, pass=Processing, prefix=[warning]: , severity=INFO_VERBOSE, sourceInfo=SearchStaff.jsp, stdout=true, step=SRC_PARSE, webapp=/Users/zacharylewis/Desktop/fodjavauploaddemo/WebGoat5.0/WebContent} NDC:[]
+[2019-02-26 20:21:22.280 INFO  1450]
+Processing /Users/zacharylewis/Desktop/fodjavauploaddemo/WebGoat5.0/WebContent/lessons/CrossSiteScripting/EditProfile.jsp
+   logger:com.fortify.frontend.parser.newjsp2.NewJspFrontEnd marker:USER thread:sourceanalyzer-10
+   MDC:{frontend=JavaFrontEnd, msgId=1450, pass=Processing, prefix=[warning]: , severity=INFO_VERBOSE, sourceInfo=EditProfile.jsp, stdout=true, step=SRC_PARSE, webapp=/Users/zacharylewis/Desktop/fodjavauploaddemo/WebGoat5.0/WebContent} NDC:[]
+[2019-02-26 20:21:22.320 INFO  1450]
+Processing /Users/zacharylewis/Desktop/fodjavauploaddemo/WebGoat5.0/WebContent/sideWindow.jsp
+   logger:com.fortify.frontend.parser.newjsp2.NewJspFrontEnd marker:USER thread:sourceanalyzer-10
+   MDC:{frontend=JavaFrontEnd, msgId=1450, pass=Processing, prefix=[warning]: , severity=INFO_VERBOSE, sourceInfo=sideWindow.jsp, stdout=true, step=SRC_PARSE, webapp=/Users/zacharylewis/Desktop/fodjavauploaddemo/WebGoat5.0/WebContent} NDC:[]
+[2019-02-26 20:21:22.352 INFO  1450]
+Processing /Users/zacharylewis/Desktop/fodjavauploaddemo/WebGoat5.0/WebContent/lessons/SQLInjection/SearchStaff.jsp
+   logger:com.fortify.frontend.parser.newjsp2.NewJspFrontEnd marker:USER thread:sourceanalyzer-10
+   MDC:{frontend=JavaFrontEnd, msgId=1450, pass=Processing, prefix=[warning]: , severity=INFO_VERBOSE, sourceInfo=SearchStaff.jsp, stdout=true, step=SRC_PARSE, webapp=/Users/zacharylewis/Desktop/fodjavauploaddemo/WebGoat5.0/WebContent} NDC:[]
+[2019-02-26 20:21:22.380 INFO  1450]
+Processing /Users/zacharylewis/Desktop/fodjavauploaddemo/WebGoat5.0/WebContent/lessons/CrossSiteScripting/error.jsp
+   logger:com.fortify.frontend.parser.newjsp2.NewJspFrontEnd marker:USER thread:sourceanalyzer-10
+   MDC:{frontend=JavaFrontEnd, msgId=1450, pass=Processing, prefix=[warning]: , severity=INFO_VERBOSE, sourceInfo=error.jsp, stdout=true, step=SRC_PARSE, webapp=/Users/zacharylewis/Desktop/fodjavauploaddemo/WebGoat5.0/WebContent} NDC:[]
+[2019-02-26 20:21:22.410 INFO  1450]
+Processing /Users/zacharylewis/Desktop/fodjavauploaddemo/WebGoat5.0/WebContent/lessons/RoleBasedAccessControl/ViewProfile.jsp
+   logger:com.fortify.frontend.parser.newjsp2.NewJspFrontEnd marker:USER thread:sourceanalyzer-10
+   MDC:{frontend=JavaFrontEnd, msgId=1450, pass=Processing, prefix=[warning]: , severity=INFO_VERBOSE, sourceInfo=ViewProfile.jsp, stdout=true, step=SRC_PARSE, webapp=/Users/zacharylewis/Desktop/fodjavauploaddemo/WebGoat5.0/WebContent} NDC:[]
+[2019-02-26 20:21:22.451 INFO  1450]
+Processing /Users/zacharylewis/Desktop/fodjavauploaddemo/WebGoat5.0/WebContent/lessons/SQLInjection/SQLInjection.jsp
+   logger:com.fortify.frontend.parser.newjsp2.NewJspFrontEnd marker:USER thread:sourceanalyzer-10
+   MDC:{frontend=JavaFrontEnd, msgId=1450, pass=Processing, prefix=[warning]: , severity=INFO_VERBOSE, sourceInfo=SQLInjection.jsp, stdout=true, step=SRC_PARSE, webapp=/Users/zacharylewis/Desktop/fodjavauploaddemo/WebGoat5.0/WebContent} NDC:[]
+[2019-02-26 20:21:22.475 INFO  1450]
+Processing /Users/zacharylewis/Desktop/fodjavauploaddemo/WebGoat5.0/WebContent/lessons/CrossSiteScripting/CrossSiteScripting.jsp
+   logger:com.fortify.frontend.parser.newjsp2.NewJspFrontEnd marker:USER thread:sourceanalyzer-10
+   MDC:{frontend=JavaFrontEnd, msgId=1450, pass=Processing, prefix=[warning]: , severity=INFO_VERBOSE, sourceInfo=CrossSiteScripting.jsp, stdout=true, step=SRC_PARSE, webapp=/Users/zacharylewis/Desktop/fodjavauploaddemo/WebGoat5.0/WebContent} NDC:[]
+[2019-02-26 20:21:22.506 INFO  1450]
+Processing /Users/zacharylewis/Desktop/fodjavauploaddemo/WebGoat5.0/WebContent/lessons/SQLInjection/ViewProfile.jsp
+   logger:com.fortify.frontend.parser.newjsp2.NewJspFrontEnd marker:USER thread:sourceanalyzer-10
+   MDC:{frontend=JavaFrontEnd, msgId=1450, pass=Processing, prefix=[warning]: , severity=INFO_VERBOSE, sourceInfo=ViewProfile.jsp, stdout=true, step=SRC_PARSE, webapp=/Users/zacharylewis/Desktop/fodjavauploaddemo/WebGoat5.0/WebContent} NDC:[]
+[2019-02-26 20:21:22.547 INFO  1450]
+Processing /Users/zacharylewis/Desktop/fodjavauploaddemo/WebGoat5.0/WebContent/lessons/CrossSiteScripting/Login.jsp
+   logger:com.fortify.frontend.parser.newjsp2.NewJspFrontEnd marker:USER thread:sourceanalyzer-10
+   MDC:{frontend=JavaFrontEnd, msgId=1450, pass=Processing, prefix=[warning]: , severity=INFO_VERBOSE, sourceInfo=Login.jsp, stdout=true, step=SRC_PARSE, webapp=/Users/zacharylewis/Desktop/fodjavauploaddemo/WebGoat5.0/WebContent} NDC:[]
+[2019-02-26 20:21:22.582 INFO  1450]
+Processing /Users/zacharylewis/Desktop/fodjavauploaddemo/WebGoat5.0/WebContent/webgoat.jsp
+   logger:com.fortify.frontend.parser.newjsp2.NewJspFrontEnd marker:USER thread:sourceanalyzer-10
+   MDC:{frontend=JavaFrontEnd, msgId=1450, pass=Processing, prefix=[warning]: , severity=INFO_VERBOSE, sourceInfo=webgoat.jsp, stdout=true, step=SRC_PARSE, webapp=/Users/zacharylewis/Desktop/fodjavauploaddemo/WebGoat5.0/WebContent} NDC:[]
+[2019-02-26 20:21:22.606 INFO  1450]
+Processing /Users/zacharylewis/Desktop/fodjavauploaddemo/WebGoat5.0/WebContent/lessons/SQLInjection/ListStaff.jsp
+   logger:com.fortify.frontend.parser.newjsp2.NewJspFrontEnd marker:USER thread:sourceanalyzer-10
+   MDC:{frontend=JavaFrontEnd, msgId=1450, pass=Processing, prefix=[warning]: , severity=INFO_VERBOSE, sourceInfo=ListStaff.jsp, stdout=true, step=SRC_PARSE, webapp=/Users/zacharylewis/Desktop/fodjavauploaddemo/WebGoat5.0/WebContent} NDC:[]
+[2019-02-26 20:21:22.638 INFO  1450]
+Processing /Users/zacharylewis/Desktop/fodjavauploaddemo/WebGoat5.0/WebContent/lessons/RoleBasedAccessControl/ListStaff.jsp
+   logger:com.fortify.frontend.parser.newjsp2.NewJspFrontEnd marker:USER thread:sourceanalyzer-10
+   MDC:{frontend=JavaFrontEnd, msgId=1450, pass=Processing, prefix=[warning]: , severity=INFO_VERBOSE, sourceInfo=ListStaff.jsp, stdout=true, step=SRC_PARSE, webapp=/Users/zacharylewis/Desktop/fodjavauploaddemo/WebGoat5.0/WebContent} NDC:[]
+[2019-02-26 20:21:24.633 INFO  1450]
+Processing /Users/zacharylewis/Desktop/fodjavauploaddemo/WebGoat5.0/WebContent/lesson_plans/WSDLScanning.html
+   logger:com.fortify.sca.frontend.JavaScriptFrontEnd marker:USER thread:sourceanalyzer-10
+   MDC:{frontend=JavaScriptFrontEnd, msgId=1450, pass=Processing, prefix=[warning]: , severity=INFO_VERBOSE, sourceInfo=WSDLScanning.html, stdout=true, step=SRC_PARSE} NDC:[]
+[2019-02-26 20:21:24.646 INFO  1450]
+Processing /Users/zacharylewis/Desktop/fodjavauploaddemo/WebGoat5.0/WebContent/lesson_plans/HttpOnly.html
+   logger:com.fortify.sca.frontend.JavaScriptFrontEnd marker:USER thread:sourceanalyzer-10
+   MDC:{frontend=JavaScriptFrontEnd, msgId=1450, pass=Processing, prefix=[warning]: , severity=INFO_VERBOSE, sourceInfo=HttpOnly.html, stdout=true, step=SRC_PARSE} NDC:[]
+[2019-02-26 20:21:24.648 INFO  1450]
+Processing /Users/zacharylewis/Desktop/fodjavauploaddemo/WebGoat5.0/WebContent/lesson_plans/WelcomeScreeen.html
+   logger:com.fortify.sca.frontend.JavaScriptFrontEnd marker:USER thread:sourceanalyzer-10
+   MDC:{frontend=JavaScriptFrontEnd, msgId=1450, pass=Processing, prefix=[warning]: , severity=INFO_VERBOSE, sourceInfo=WelcomeScreeen.html, stdout=true, step=SRC_PARSE} NDC:[]
+[2019-02-26 20:21:24.649 INFO  1450]
+Processing /Users/zacharylewis/Desktop/fodjavauploaddemo/WebGoat5.0/WebContent/lesson_plans/HttpSplitting.html
+   logger:com.fortify.sca.frontend.JavaScriptFrontEnd marker:USER thread:sourceanalyzer-10
+   MDC:{frontend=JavaScriptFrontEnd, msgId=1450, pass=Processing, prefix=[warning]: , severity=INFO_VERBOSE, sourceInfo=HttpSplitting.html, stdout=true, step=SRC_PARSE} NDC:[]
+[2019-02-26 20:21:24.651 INFO  1450]
+Processing /Users/zacharylewis/Desktop/fodjavauploaddemo/WebGoat5.0/WebContent/lesson_plans/ReflectedXSS.html
+   logger:com.fortify.sca.frontend.JavaScriptFrontEnd marker:USER thread:sourceanalyzer-10
+   MDC:{frontend=JavaScriptFrontEnd, msgId=1450, pass=Processing, prefix=[warning]: , severity=INFO_VERBOSE, sourceInfo=ReflectedXSS.html, stdout=true, step=SRC_PARSE} NDC:[]
+[2019-02-26 20:21:24.652 INFO  1450]
+Processing /Users/zacharylewis/Desktop/fodjavauploaddemo/WebGoat5.0/WebContent/lesson_plans/RoleBasedAccessControl.html
+   logger:com.fortify.sca.frontend.JavaScriptFrontEnd marker:USER thread:sourceanalyzer-10
+   MDC:{frontend=JavaScriptFrontEnd, msgId=1450, pass=Processing, prefix=[warning]: , severity=INFO_VERBOSE, sourceInfo=RoleBasedAccessControl.html, stdout=true, step=SRC_PARSE} NDC:[]
+[2019-02-26 20:21:24.653 INFO  1450]
+Processing /Users/zacharylewis/Desktop/fodjavauploaddemo/WebGoat5.0/WebContent/lesson_plans/WsSAXInjection.html
+   logger:com.fortify.sca.frontend.JavaScriptFrontEnd marker:USER thread:sourceanalyzer-10
+   MDC:{frontend=JavaScriptFrontEnd, msgId=1450, pass=Processing, prefix=[warning]: , severity=INFO_VERBOSE, sourceInfo=WsSAXInjection.html, stdout=true, step=SRC_PARSE} NDC:[]
+[2019-02-26 20:21:24.655 INFO  1450]
+Processing /Users/zacharylewis/Desktop/fodjavauploaddemo/WebGoat5.0/WebContent/lesson_plans/HttpBasics.html
+   logger:com.fortify.sca.frontend.JavaScriptFrontEnd marker:USER thread:sourceanalyzer-10
+   MDC:{frontend=JavaScriptFrontEnd, msgId=1450, pass=Processing, prefix=[warning]: , severity=INFO_VERBOSE, sourceInfo=HttpBasics.html, stdout=true, step=SRC_PARSE} NDC:[]
+[2019-02-26 20:21:24.656 INFO  1450]
+Processing /Users/zacharylewis/Desktop/fodjavauploaddemo/WebGoat5.0/WebContent/lesson_plans/BasicAuthentication.html
+   logger:com.fortify.sca.frontend.JavaScriptFrontEnd marker:USER thread:sourceanalyzer-10
+   MDC:{frontend=JavaScriptFrontEnd, msgId=1450, pass=Processing, prefix=[warning]: , severity=INFO_VERBOSE, sourceInfo=BasicAuthentication.html, stdout=true, step=SRC_PARSE} NDC:[]
+[2019-02-26 20:21:24.657 INFO  1450]
+Processing /Users/zacharylewis/Desktop/fodjavauploaddemo/WebGoat5.0/WebContent/lesson_plans/WeakAuthenticationCookie.html
+   logger:com.fortify.sca.frontend.JavaScriptFrontEnd marker:USER thread:sourceanalyzer-10
+   MDC:{frontend=JavaScriptFrontEnd, msgId=1450, pass=Processing, prefix=[warning]: , severity=INFO_VERBOSE, sourceInfo=WeakAuthenticationCookie.html, stdout=true, step=SRC_PARSE} NDC:[]
+[2019-02-26 20:21:24.659 INFO  1450]
+Processing /Users/zacharylewis/Desktop/fodjavauploaddemo/WebGoat5.0/WebContent/lesson_plans/HtmlClues.html
+   logger:com.fortify.sca.frontend.JavaScriptFrontEnd marker:USER thread:sourceanalyzer-10
+   MDC:{frontend=JavaScriptFrontEnd, msgId=1450, pass=Processing, prefix=[warning]: , severity=INFO_VERBOSE, sourceInfo=HtmlClues.html, stdout=true, step=SRC_PARSE} NDC:[]
+[2019-02-26 20:21:24.660 INFO  1450]
+Processing /Users/zacharylewis/Desktop/fodjavauploaddemo/WebGoat5.0/WebContent/lesson_template/lessons.html
+   logger:com.fortify.sca.frontend.JavaScriptFrontEnd marker:USER thread:sourceanalyzer-10
+   MDC:{frontend=JavaScriptFrontEnd, msgId=1450, pass=Processing, prefix=[warning]: , severity=INFO_VERBOSE, sourceInfo=lessons.html, stdout=true, step=SRC_PARSE} NDC:[]
+[2019-02-26 20:21:24.664 INFO  1450]
+Processing /Users/zacharylewis/Desktop/fodjavauploaddemo/WebGoat5.0/WebContent/lesson_plans/XPATHInjection.html
+   logger:com.fortify.sca.frontend.JavaScriptFrontEnd marker:USER thread:sourceanalyzer-10
+   MDC:{frontend=JavaScriptFrontEnd, msgId=1450, pass=Processing, prefix=[warning]: , severity=INFO_VERBOSE, sourceInfo=XPATHInjection.html, stdout=true, step=SRC_PARSE} NDC:[]
+[2019-02-26 20:21:24.665 INFO  1450]
+Processing /Users/zacharylewis/Desktop/fodjavauploaddemo/WebGoat5.0/WebContent/lesson_plans/AccessControlMatrix.html
+   logger:com.fortify.sca.frontend.JavaScriptFrontEnd marker:USER thread:sourceanalyzer-10
+   MDC:{frontend=JavaScriptFrontEnd, msgId=1450, pass=Processing, prefix=[warning]: , severity=INFO_VERBOSE, sourceInfo=AccessControlMatrix.html, stdout=true, step=SRC_PARSE} NDC:[]
+[2019-02-26 20:21:24.666 INFO  1450]
+Processing /Users/zacharylewis/Desktop/fodjavauploaddemo/WebGoat5.0/WebContent/lesson_plans/Encoding.html
+   logger:com.fortify.sca.frontend.JavaScriptFrontEnd marker:USER thread:sourceanalyzer-10
+   MDC:{frontend=JavaScriptFrontEnd, msgId=1450, pass=Processing, prefix=[warning]: , severity=INFO_VERBOSE, sourceInfo=Encoding.html, stdout=true, step=SRC_PARSE} NDC:[]
+[2019-02-26 20:21:24.668 INFO  1450]
+Processing /Users/zacharylewis/Desktop/fodjavauploaddemo/WebGoat5.0/WebContent/lesson_plans/SqlNumericInjection.html
+   logger:com.fortify.sca.frontend.JavaScriptFrontEnd marker:USER thread:sourceanalyzer-10
+   MDC:{frontend=JavaScriptFrontEnd, msgId=1450, pass=Processing, prefix=[warning]: , severity=INFO_VERBOSE, sourceInfo=SqlNumericInjection.html, stdout=true, step=SRC_PARSE} NDC:[]
+[2019-02-26 20:21:24.672 INFO  1450]
+Processing /Users/zacharylewis/Desktop/fodjavauploaddemo/WebGoat5.0/WebContent/lesson_plans/CommandInjection.html
+   logger:com.fortify.sca.frontend.JavaScriptFrontEnd marker:USER thread:sourceanalyzer-10
+   MDC:{frontend=JavaScriptFrontEnd, msgId=1450, pass=Processing, prefix=[warning]: , severity=INFO_VERBOSE, sourceInfo=CommandInjection.html, stdout=true, step=SRC_PARSE} NDC:[]
+[2019-02-26 20:21:24.677 INFO  1450]
+Processing /Users/zacharylewis/Desktop/fodjavauploaddemo/WebGoat5.0/WebContent/lesson_plans/JavaScriptValidation.html
+   logger:com.fortify.sca.frontend.JavaScriptFrontEnd marker:USER thread:sourceanalyzer-10
+   MDC:{frontend=JavaScriptFrontEnd, msgId=1450, pass=Processing, prefix=[warning]: , severity=INFO_VERBOSE, sourceInfo=JavaScriptValidation.html, stdout=true, step=SRC_PARSE} NDC:[]
+[2019-02-26 20:21:24.680 INFO  1450]
+Processing /Users/zacharylewis/Desktop/fodjavauploaddemo/WebGoat5.0/WebContent/lesson_plans/TraceXSS.html
+   logger:com.fortify.sca.frontend.JavaScriptFrontEnd marker:USER thread:sourceanalyzer-10
+   MDC:{frontend=JavaScriptFrontEnd, msgId=1450, pass=Processing, prefix=[warning]: , severity=INFO_VERBOSE, sourceInfo=TraceXSS.html, stdout=true, step=SRC_PARSE} NDC:[]
+[2019-02-26 20:21:24.682 INFO  1450]
+Processing /Users/zacharylewis/Desktop/fodjavauploaddemo/WebGoat5.0/WebContent/lesson_plans/NewLesson.html
+   logger:com.fortify.sca.frontend.JavaScriptFrontEnd marker:USER thread:sourceanalyzer-10
+   MDC:{frontend=JavaScriptFrontEnd, msgId=1450, pass=Processing, prefix=[warning]: , severity=INFO_VERBOSE, sourceInfo=NewLesson.html, stdout=true, step=SRC_PARSE} NDC:[]
+[2019-02-26 20:21:24.684 INFO  1450]
+Processing /Users/zacharylewis/Desktop/fodjavauploaddemo/WebGoat5.0/WebContent/lesson_plans/ChallengeScreen.html
+   logger:com.fortify.sca.frontend.JavaScriptFrontEnd marker:USER thread:sourceanalyzer-10
+   MDC:{frontend=JavaScriptFrontEnd, msgId=1450, pass=Processing, prefix=[warning]: , severity=INFO_VERBOSE, sourceInfo=ChallengeScreen.html, stdout=true, step=SRC_PARSE} NDC:[]
+[2019-02-26 20:21:24.685 INFO  1450]
+Processing /Users/zacharylewis/Desktop/fodjavauploaddemo/WebGoat5.0/WebContent/lesson_plans/PathBasedAccessControl.html
+   logger:com.fortify.sca.frontend.JavaScriptFrontEnd marker:USER thread:sourceanalyzer-10
+   MDC:{frontend=JavaScriptFrontEnd, msgId=1450, pass=Processing, prefix=[warning]: , severity=INFO_VERBOSE, sourceInfo=PathBasedAccessControl.html, stdout=true, step=SRC_PARSE} NDC:[]
+[2019-02-26 20:21:24.686 INFO  1450]
+Processing /Users/zacharylewis/Desktop/fodjavauploaddemo/WebGoat5.0/WebContent/lesson_plans/BlindSqlInjection.html
+   logger:com.fortify.sca.frontend.JavaScriptFrontEnd marker:USER thread:sourceanalyzer-10
+   MDC:{frontend=JavaScriptFrontEnd, msgId=1450, pass=Processing, prefix=[warning]: , severity=INFO_VERBOSE, sourceInfo=BlindSqlInjection.html, stdout=true, step=SRC_PARSE} NDC:[]
+[2019-02-26 20:21:24.688 INFO  1450]
+Processing /Users/zacharylewis/Desktop/fodjavauploaddemo/WebGoat5.0/WebContent/lesson_plans/CSRF.html
+   logger:com.fortify.sca.frontend.JavaScriptFrontEnd marker:USER thread:sourceanalyzer-10
+   MDC:{frontend=JavaScriptFrontEnd, msgId=1450, pass=Processing, prefix=[warning]: , severity=INFO_VERBOSE, sourceInfo=CSRF.html, stdout=true, step=SRC_PARSE} NDC:[]
+[2019-02-26 20:21:24.689 INFO  1450]
+Processing /Users/zacharylewis/Desktop/fodjavauploaddemo/WebGoat5.0/WebContent/lesson_plans/JSONInjection.html
+   logger:com.fortify.sca.frontend.JavaScriptFrontEnd marker:USER thread:sourceanalyzer-10
+   MDC:{frontend=JavaScriptFrontEnd, msgId=1450, pass=Processing, prefix=[warning]: , severity=INFO_VERBOSE, sourceInfo=JSONInjection.html, stdout=true, step=SRC_PARSE} NDC:[]
+[2019-02-26 20:21:24.691 INFO  1450]
+Processing /Users/zacharylewis/Desktop/fodjavauploaddemo/WebGoat5.0/WebContent/lesson_plans/SqlStringInjection.html
+   logger:com.fortify.sca.frontend.JavaScriptFrontEnd marker:USER thread:sourceanalyzer-10
+   MDC:{frontend=JavaScriptFrontEnd, msgId=1450, pass=Processing, prefix=[warning]: , severity=INFO_VERBOSE, sourceInfo=SqlStringInjection.html, stdout=true, step=SRC_PARSE} NDC:[]
+[2019-02-26 20:21:24.693 INFO  1450]
+Processing /Users/zacharylewis/Desktop/fodjavauploaddemo/WebGoat5.0/WebContent/lesson_plans/CrossSiteScripting.html
+   logger:com.fortify.sca.frontend.JavaScriptFrontEnd marker:USER thread:sourceanalyzer-10
+   MDC:{frontend=JavaScriptFrontEnd, msgId=1450, pass=Processing, prefix=[warning]: , severity=INFO_VERBOSE, sourceInfo=CrossSiteScripting.html, stdout=true, step=SRC_PARSE} NDC:[]
+[2019-02-26 20:21:24.694 INFO  1450]
+Processing /Users/zacharylewis/Desktop/fodjavauploaddemo/WebGoat5.0/WebContent/lesson_plans/StoredXss.html
+   logger:com.fortify.sca.frontend.JavaScriptFrontEnd marker:USER thread:sourceanalyzer-10
+   MDC:{frontend=JavaScriptFrontEnd, msgId=1450, pass=Processing, prefix=[warning]: , severity=INFO_VERBOSE, sourceInfo=StoredXss.html, stdout=true, step=SRC_PARSE} NDC:[]
+[2019-02-26 20:21:24.695 INFO  1450]
+Processing /Users/zacharylewis/Desktop/fodjavauploaddemo/WebGoat5.0/WebContent/lesson_plans/HiddenFieldTampering.html
+   logger:com.fortify.sca.frontend.JavaScriptFrontEnd marker:USER thread:sourceanalyzer-10
+   MDC:{frontend=JavaScriptFrontEnd, msgId=1450, pass=Processing, prefix=[warning]: , severity=INFO_VERBOSE, sourceInfo=HiddenFieldTampering.html, stdout=true, step=SRC_PARSE} NDC:[]
+[2019-02-26 20:21:24.697 INFO  1450]
+Processing /Users/zacharylewis/Desktop/fodjavauploaddemo/WebGoat5.0/WebContent/lesson_plans/DOMInjection.html
+   logger:com.fortify.sca.frontend.JavaScriptFrontEnd marker:USER thread:sourceanalyzer-10
+   MDC:{frontend=JavaScriptFrontEnd, msgId=1450, pass=Processing, prefix=[warning]: , severity=INFO_VERBOSE, sourceInfo=DOMInjection.html, stdout=true, step=SRC_PARSE} NDC:[]
+[2019-02-26 20:21:24.700 INFO  1450]
+Processing /Users/zacharylewis/Desktop/fodjavauploaddemo/WebGoat5.0/WebContent/lesson_plans/BufferOverflow.html
+   logger:com.fortify.sca.frontend.JavaScriptFrontEnd marker:USER thread:sourceanalyzer-10
+   MDC:{frontend=JavaScriptFrontEnd, msgId=1450, pass=Processing, prefix=[warning]: , severity=INFO_VERBOSE, sourceInfo=BufferOverflow.html, stdout=true, step=SRC_PARSE} NDC:[]
+[2019-02-26 20:21:24.703 INFO  1450]
+Processing /Users/zacharylewis/Desktop/fodjavauploaddemo/WebGoat5.0/WebContent/lesson_plans/WsSqlInjection.html
+   logger:com.fortify.sca.frontend.JavaScriptFrontEnd marker:USER thread:sourceanalyzer-10
+   MDC:{frontend=JavaScriptFrontEnd, msgId=1450, pass=Processing, prefix=[warning]: , severity=INFO_VERBOSE, sourceInfo=WsSqlInjection.html, stdout=true, step=SRC_PARSE} NDC:[]
+[2019-02-26 20:21:24.705 INFO  1450]
+Processing /Users/zacharylewis/Desktop/fodjavauploaddemo/WebGoat5.0/WebContent/lesson_plans/XMLInjection.html
+   logger:com.fortify.sca.frontend.JavaScriptFrontEnd marker:USER thread:sourceanalyzer-10
+   MDC:{frontend=JavaScriptFrontEnd, msgId=1450, pass=Processing, prefix=[warning]: , severity=INFO_VERBOSE, sourceInfo=XMLInjection.html, stdout=true, step=SRC_PARSE} NDC:[]
+[2019-02-26 20:21:24.706 INFO  1450]
+Processing /Users/zacharylewis/Desktop/fodjavauploaddemo/WebGoat5.0/WebContent/lesson_plans/RemoteAdminFlaw.html
+   logger:com.fortify.sca.frontend.JavaScriptFrontEnd marker:USER thread:sourceanalyzer-10
+   MDC:{frontend=JavaScriptFrontEnd, msgId=1450, pass=Processing, prefix=[warning]: , severity=INFO_VERBOSE, sourceInfo=RemoteAdminFlaw.html, stdout=true, step=SRC_PARSE} NDC:[]
+[2019-02-26 20:21:24.707 INFO  1450]
+Processing /Users/zacharylewis/Desktop/fodjavauploaddemo/WebGoat5.0/WebContent/lesson_plans/UncheckedEmail.html
+   logger:com.fortify.sca.frontend.JavaScriptFrontEnd marker:USER thread:sourceanalyzer-10
+   MDC:{frontend=JavaScriptFrontEnd, msgId=1450, pass=Processing, prefix=[warning]: , severity=INFO_VERBOSE, sourceInfo=UncheckedEmail.html, stdout=true, step=SRC_PARSE} NDC:[]
+[2019-02-26 20:21:24.708 INFO  1450]
+Processing /Users/zacharylewis/Desktop/fodjavauploaddemo/WebGoat5.0/WebContent/lesson_plans/ThreadSafetyProblem.html
+   logger:com.fortify.sca.frontend.JavaScriptFrontEnd marker:USER thread:sourceanalyzer-10
+   MDC:{frontend=JavaScriptFrontEnd, msgId=1450, pass=Processing, prefix=[warning]: , severity=INFO_VERBOSE, sourceInfo=ThreadSafetyProblem.html, stdout=true, step=SRC_PARSE} NDC:[]
+[2019-02-26 20:21:24.710 INFO  1450]
+Processing /Users/zacharylewis/Desktop/fodjavauploaddemo/WebGoat5.0/WebContent/lesson_plans/BackDoors.html
+   logger:com.fortify.sca.frontend.JavaScriptFrontEnd marker:USER thread:sourceanalyzer-10
+   MDC:{frontend=JavaScriptFrontEnd, msgId=1450, pass=Processing, prefix=[warning]: , severity=INFO_VERBOSE, sourceInfo=BackDoors.html, stdout=true, step=SRC_PARSE} NDC:[]
+[2019-02-26 20:21:24.711 INFO  1450]
+Processing /Users/zacharylewis/Desktop/fodjavauploaddemo/WebGoat5.0/WebContent/lesson_plans/SoapRequest.html
+   logger:com.fortify.sca.frontend.JavaScriptFrontEnd marker:USER thread:sourceanalyzer-10
+   MDC:{frontend=JavaScriptFrontEnd, msgId=1450, pass=Processing, prefix=[warning]: , severity=INFO_VERBOSE, sourceInfo=SoapRequest.html, stdout=true, step=SRC_PARSE} NDC:[]
+[2019-02-26 20:21:24.712 INFO  1450]
+Processing /Users/zacharylewis/Desktop/fodjavauploaddemo/WebGoat5.0/WebContent/lesson_plans/ForcedBrowsing.html
+   logger:com.fortify.sca.frontend.JavaScriptFrontEnd marker:USER thread:sourceanalyzer-10
+   MDC:{frontend=JavaScriptFrontEnd, msgId=1450, pass=Processing, prefix=[warning]: , severity=INFO_VERBOSE, sourceInfo=ForcedBrowsing.html, stdout=true, step=SRC_PARSE} NDC:[]
+[2019-02-26 20:21:24.714 INFO  1450]
+Processing /Users/zacharylewis/Desktop/fodjavauploaddemo/WebGoat5.0/WebContent/lesson_plans/SilentTransactions.html
+   logger:com.fortify.sca.frontend.JavaScriptFrontEnd marker:USER thread:sourceanalyzer-10
+   MDC:{frontend=JavaScriptFrontEnd, msgId=1450, pass=Processing, prefix=[warning]: , severity=INFO_VERBOSE, sourceInfo=SilentTransactions.html, stdout=true, step=SRC_PARSE} NDC:[]
+[2019-02-26 20:21:24.716 INFO  1450]
+Processing /Users/zacharylewis/Desktop/fodjavauploaddemo/WebGoat5.0/WebContent/lesson_plans/FailOpenAuthentication.html
+   logger:com.fortify.sca.frontend.JavaScriptFrontEnd marker:USER thread:sourceanalyzer-10
+   MDC:{frontend=JavaScriptFrontEnd, msgId=1450, pass=Processing, prefix=[warning]: , severity=INFO_VERBOSE, sourceInfo=FailOpenAuthentication.html, stdout=true, step=SRC_PARSE} NDC:[]
+[2019-02-26 20:21:24.717 INFO  1450]
+Processing /Users/zacharylewis/Desktop/fodjavauploaddemo/WebGoat5.0/WebContent/lesson_plans/DOS_Login.html
+   logger:com.fortify.sca.frontend.JavaScriptFrontEnd marker:USER thread:sourceanalyzer-10
+   MDC:{frontend=JavaScriptFrontEnd, msgId=1450, pass=Processing, prefix=[warning]: , severity=INFO_VERBOSE, sourceInfo=DOS_Login.html, stdout=true, step=SRC_PARSE} NDC:[]
+[2019-02-26 20:21:24.718 INFO  1450]
+Processing /Users/zacharylewis/Desktop/fodjavauploaddemo/WebGoat5.0/WebContent/lesson_plans/WeakSessionID.html
+   logger:com.fortify.sca.frontend.JavaScriptFrontEnd marker:USER thread:sourceanalyzer-10
+   MDC:{frontend=JavaScriptFrontEnd, msgId=1450, pass=Processing, prefix=[warning]: , severity=INFO_VERBOSE, sourceInfo=WeakSessionID.html, stdout=true, step=SRC_PARSE} NDC:[]
+[2019-02-26 20:21:24.719 INFO  1450]
+Processing /Users/zacharylewis/Desktop/fodjavauploaddemo/WebGoat5.0/WebContent/lesson_plans/ForgotPassword.html
+   logger:com.fortify.sca.frontend.JavaScriptFrontEnd marker:USER thread:sourceanalyzer-10
+   MDC:{frontend=JavaScriptFrontEnd, msgId=1450, pass=Processing, prefix=[warning]: , severity=INFO_VERBOSE, sourceInfo=ForgotPassword.html, stdout=true, step=SRC_PARSE} NDC:[]
+[2019-02-26 20:21:24.720 INFO  1450]
+Processing /Users/zacharylewis/Desktop/fodjavauploaddemo/WebGoat5.0/WebContent/lesson_plans/LogSpoofing.html
+   logger:com.fortify.sca.frontend.JavaScriptFrontEnd marker:USER thread:sourceanalyzer-10
+   MDC:{frontend=JavaScriptFrontEnd, msgId=1450, pass=Processing, prefix=[warning]: , severity=INFO_VERBOSE, sourceInfo=LogSpoofing.html, stdout=true, step=SRC_PARSE} NDC:[]
+[2019-02-26 20:21:24.721 INFO  1450]
+Processing /Users/zacharylewis/Desktop/fodjavauploaddemo/WebGoat5.0/WebContent/lesson_plans/Lesson_Plan_Template.html
+   logger:com.fortify.sca.frontend.JavaScriptFrontEnd marker:USER thread:sourceanalyzer-10
+   MDC:{frontend=JavaScriptFrontEnd, msgId=1450, pass=Processing, prefix=[warning]: , severity=INFO_VERBOSE, sourceInfo=Lesson_Plan_Template.html, stdout=true, step=SRC_PARSE} NDC:[]
+[2019-02-26 20:21:24.729 INFO  1450]
+Processing /Users/zacharylewis/.fortify/sca18.2/build/fodTranslate/_fortify_libraries_/lib.js
+   logger:com.fortify.sca.frontend.JavaScriptFrontEnd marker:USER thread:sourceanalyzer-10
+   MDC:{frontend=JavaScriptFrontEnd, msgId=1450, pass=Processing, prefix=[warning]: , severity=INFO_VERBOSE, sourceInfo=lib.js, stdout=true, step=SRC_PARSE} NDC:[]
+[2019-02-26 20:21:25.019 INFO  1450]
+Processing /Users/zacharylewis/Desktop/fodjavauploaddemo/WebGoat5.0/WebContent/javascript/makeWindow.js
+   logger:com.fortify.sca.frontend.JavaScriptFrontEnd marker:USER thread:sourceanalyzer-10
+   MDC:{frontend=JavaScriptFrontEnd, msgId=1450, pass=Processing, prefix=[warning]: , severity=INFO_VERBOSE, sourceInfo=makeWindow.js, stdout=true, step=SRC_PARSE} NDC:[]
+[2019-02-26 20:21:25.024 INFO  1450]
+Processing /Users/zacharylewis/Desktop/fodjavauploaddemo/WebGoat5.0/WebContent/javascript/menu_system.js
+   logger:com.fortify.sca.frontend.JavaScriptFrontEnd marker:USER thread:sourceanalyzer-10
+   MDC:{frontend=JavaScriptFrontEnd, msgId=1450, pass=Processing, prefix=[warning]: , severity=INFO_VERBOSE, sourceInfo=menu_system.js, stdout=true, step=SRC_PARSE} NDC:[]
+[2019-02-26 20:21:25.096 INFO  1450]
+Processing /Users/zacharylewis/Desktop/fodjavauploaddemo/WebGoat5.0/WebContent/javascript/javascript.js
+   logger:com.fortify.sca.frontend.JavaScriptFrontEnd marker:USER thread:sourceanalyzer-10
+   MDC:{frontend=JavaScriptFrontEnd, msgId=1450, pass=Processing, prefix=[warning]: , severity=INFO_VERBOSE, sourceInfo=javascript.js, stdout=true, step=SRC_PARSE} NDC:[]
+[2019-02-26 20:21:25.101 INFO  1450]
+Processing /Users/zacharylewis/Desktop/fodjavauploaddemo/WebGoat5.0/WebContent/javascript/toggle.js
+   logger:com.fortify.sca.frontend.JavaScriptFrontEnd marker:USER thread:sourceanalyzer-10
+   MDC:{frontend=JavaScriptFrontEnd, msgId=1450, pass=Processing, prefix=[warning]: , severity=INFO_VERBOSE, sourceInfo=toggle.js, stdout=true, step=SRC_PARSE} NDC:[]
+[2019-02-26 20:21:25.108 INFO  1450]
+Processing /Users/zacharylewis/Desktop/fodjavauploaddemo/WebGoat5.0/WebContent/javascript/lessonNav.js
+   logger:com.fortify.sca.frontend.JavaScriptFrontEnd marker:USER thread:sourceanalyzer-10
+   MDC:{frontend=JavaScriptFrontEnd, msgId=1450, pass=Processing, prefix=[warning]: , severity=INFO_VERBOSE, sourceInfo=lessonNav.js, stdout=true, step=SRC_PARSE} NDC:[]
+[2019-02-26 20:21:25.233 INFO  1450]
+Processing /Users/zacharylewis/.fortify/sca18.2/build/fodTranslate/extracted/javascript/Users/zacharylewis/Desktop/fodjavauploaddemo/WebGoat5.0/WebContent/lesson_template/lessons.html.js
+   logger:com.fortify.sca.frontend.JavaScriptFrontEnd marker:USER thread:sourceanalyzer-10
+   MDC:{frontend=JavaScriptFrontEnd, msgId=1450, pass=Processing, prefix=[warning]: , severity=INFO_VERBOSE, sourceInfo=lessons.html.js, stdout=true, step=SRC_PARSE} NDC:[]
+[2019-02-26 20:21:25.237 INFO  1450]
+Processing /Users/zacharylewis/.fortify/sca18.2/build/fodTranslate/extracted/javascript/Users/zacharylewis/Desktop/fodjavauploaddemo/WebGoat5.0/WebContent/lesson_plans/ThreadSafetyProblem.html.js
+   logger:com.fortify.sca.frontend.JavaScriptFrontEnd marker:USER thread:sourceanalyzer-10
+   MDC:{frontend=JavaScriptFrontEnd, msgId=1450, pass=Processing, prefix=[warning]: , severity=INFO_VERBOSE, sourceInfo=ThreadSafetyProblem.html.js, stdout=true, step=SRC_PARSE} NDC:[]
+[2019-02-26 20:21:25.776 INFO  ]
+Front End complete
+   logger:com.fortify.sca.frontend.FrontEndSession marker:DEV thread:sourceanalyzer-10
+   MDC:{msgId=-1, prefix=[warning]: , severity=LOG_STATUS, step=SRC_PARSE} NDC:[]
+[2019-02-26 20:21:26.001 INFO  ]
+message id statistics:
+   id:        -1 total:      2165 totalSuppressedCount:         0 scope:[]
+   id:     12003 total:         1 totalSuppressedCount:         0 scope:[]
+   id:      1450 total:       211 totalSuppressedCount:         0 scope:[]
+
+   logger:com.fortify.messaging.MessageSuppressor marker:DEV thread:sourceanalyzer-10
+   MDC:{msgId=-1, prefix=[warning]: , severity=NONE, step=SRC_PARSE} NDC:[]
+[2019-02-26 20:21:26.002 INFO  ]
+logger:null  count:224
+   level:INFO count:223
+   level:WARN count:1
+logger:com.fortify.messaging.MessageSuppressor  count:2
+   level:INFO count:2
+logger:com.fortify.logging.log4j2.LevelAdjuster  count:1
+   level:INFO count:1
+logger:com.fortify.frontend.parser.newjsp2.NewJspFrontEnd  count:54
+   level:INFO count:54
+logger:com.fortify.sca.frontend.JavaFrontEnd  count:106
+   level:INFO count:105
+   level:WARN count:1
+logger:com.fortify.sca.frontend.JavaScriptFrontEnd  count:54
+   level:INFO count:54
+logger:com.fortify.sca.cmd.CommandLine  count:2
+   level:INFO count:2
+logger:com.fortify.logging.log4j2.LoggerFactory  count:1
+   level:INFO count:1
+logger:com.fortify.sca.Main  count:3
+   level:INFO count:3
+logger:com.fortify.sca.frontend.FrontEndSession  count:1
+   level:INFO count:1
+
+   logger:com.fortify.logging.LoggerStats marker:DEV thread:sourceanalyzer-10
+   MDC:{msgId=-1, prefix=[warning]: , severity=NONE, step=SRC_PARSE} NDC:[]
