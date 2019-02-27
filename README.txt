@@ -1,4 +1,13 @@
 
+This GIT Directory has demo code for FOD:
+
+1.) fodUpload.sh - script to upload to FOD using a few arguments
+2.) fodTranslateZiJava.sh - script to zip source and jars translated with SCA.
+3.) FodUpload.jar - Runnable Jar that uploads packages to FOD.
+
+There is usage info on each in the scripts *.sh.
+
+
 This fodUpload.sh script simplifies the upload process by taking just three arguments:
 
 NOTE: You must make sure the PATH to the fodUpload.jar is correct in the script.
